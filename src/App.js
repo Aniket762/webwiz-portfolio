@@ -1,19 +1,24 @@
 import "./App.css";
 import { Navbar } from "./components/appbar/navbar";
-import Hero from './components/hero/hero';
-import About from './components/about/about';
-import Event from './components/events/events';
-import Team from './components/team/team';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages/home';
+import About from './pages/about';
+import Event from "./pages/event";
+import Projects from "./pages/projects";
+import Team from "./pages/team";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
-      <Hero />
-      <About />
-      <Event />
-      <Team />
-    </div>
+      <Switch >
+        <Route path="/" exact component={Home} />
+        <Route path='/about' exact component={About} />
+        <Route path='/team' exact component={ Team} />
+        <Route path='/projects' exact component={Projects } />
+        <Route path='/events' exact component={Event} />  
+     </Switch>
+    </Router>
   );
 }
 

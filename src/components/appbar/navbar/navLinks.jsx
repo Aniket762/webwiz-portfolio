@@ -28,7 +28,7 @@ const LinkItem = styled.li`
   transition: all 220ms ease-in-out;
 
   &:hover {
-    border-top: 2px solid #2ecc71;
+    border-top: 2px solid violet;
   }
 `;
 
@@ -43,16 +43,19 @@ export function NavLinks(props) {
     <NavLinksContainer>
       <LinksWrapper>
         <LinkItem>
-          <Link href="#">About us</Link>
+          <Link href="/">🏡</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Projects</Link>
+          <Link href="/about">About us</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Team</Link>
+          <Link href="/projects">Projects</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Events</Link>
+          <Link href="/team">Team</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="/events">Events</Link>
         </LinkItem>
       </LinksWrapper>
     </NavLinksContainer>
