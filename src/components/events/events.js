@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 
-
 const Heading = styled.div`
   align-self:flex-end;
   font-size: 40px;
@@ -38,14 +37,14 @@ const Button = styled.button`
   font-size: 20px;
   font-weight: 600;
   border-radius: 20px;
-  background-color: transparent;
+  background-color: #490055;
   border: 2px solid #490055;
   transition: all 240ms ease-in-out;
   cursor: pointer;
 
   &:hover {
     color: #fff;
-    background-color: #490055;
+    
   }
 
   &:not(:last-of-type) {
