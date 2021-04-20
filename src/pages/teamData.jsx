@@ -24,7 +24,15 @@ const teamData = [
             "github":"https://www.github.com/sumana2001",
             "linkedin":"https://www.linkedin.com/in/sumana-basu/",
             "instagram":"https://www.instagram.com/sumanasuchira"  
-    }
+    },
+    {
+        "name":"Sanjeet Patro",
+        "image":require('../assets/images/farewell.jpg').default,
+        "tagline":"Member",
+        "github":"https://github.com/sanjeet-crypto",
+        "linkedin":"https://www.linkedin.com/in/sanjeet-patro-6a1067202/",
+        "instagram":"https://www.instagram.com/sanjeet_patro/"  
+}
 ]
 
 export default teamData;
