@@ -53,7 +53,9 @@ const Button = styled.button`
 `;
 
 const BackGround = styled.div`
-  BackGround-image:url('https://npr.brightspotcdn.com/dims4/default/5efc005/2147483647/strip/false/crop/1115x628+0+0/resize/880x496!/quality/90/?url=https%3A%2F%2Famericanhomefront.wunc.org%2Fsites%2Fwunc2%2Ffiles%2F202005%2Fzoom_la.png');
+  BackGround-image:url('https://github.com/Aniket762/Webwiz-revamp/blob/main/src/assets/images/pic1.jpeg?raw=true');
+  background-repeat: no-repeat;
+  background-size:cover;
   height: 600px;
 `;
 
