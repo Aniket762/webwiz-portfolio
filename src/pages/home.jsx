@@ -12,7 +12,7 @@ function home() {
             <About />
             <Event />
             <Team />
-             <img style={{width:'100%',marginBottom:-10}} src='https://echoofindia.com/SysFiles/images/banner_india.jpeg' />
+             <img style={{width:'100%',marginBottom:-10}} src='https://echoofindia.com/SysFiles/images/banner_india.jpeg' alt="" />
             <Projects />
            
         </div>
