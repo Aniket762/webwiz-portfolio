@@ -1,3 +1,4 @@
+
 const teamData = [
     {
             "name":"Aniket Pal",
@@ -17,6 +18,17 @@ const teamData = [
             "instagram":"https://www.instagram.com/sumanasuchira"  
     },
     {
+
+
+        "name":"Sanjeet Patro",
+        "image":require('../assets/images/farewell.jpg').default,
+        "tagline":"Member",
+        "github":"https://github.com/sanjeet-crypto",
+        "linkedin":"https://www.linkedin.com/in/sanjeet-patro-6a1067202/",
+        "instagram":"https://www.instagram.com/sanjeet_patro/"  
+    },
+    {
+
         "name":"Sayantan Chatterjee",
         "tagline":"Member",
         "image": require('../assets/images/SayantanChatterjee.jpeg').default ,
