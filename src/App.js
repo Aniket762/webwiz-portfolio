@@ -6,6 +6,7 @@ import About from './pages/about';
 import Event from "./pages/event";
 import Projects from "./pages/projects";
 import Team from "./pages/team";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/projects' exact component={Projects } />
         <Route path='/events' exact component={Event} />  
      </Switch>
+     <Footer/>
     </Router>
   );
 }
