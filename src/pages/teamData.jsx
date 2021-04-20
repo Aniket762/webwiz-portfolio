@@ -27,7 +27,7 @@ const teamData = [
     },
     {
         "name":"Sneha Mallik",
-        "image":"../assets/images/sneha.jpg",
+        "image":require('../assets/images/sneha.jpg').default,
         "tagline":"President",
         "github":"https://github.com/snehaM2210",
         "linkedin":"https://www.linkedin.com/in/sneha-mallik-736170191/",
