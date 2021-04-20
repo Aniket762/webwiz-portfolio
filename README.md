@@ -2,13 +2,10 @@
 
 <img src='https://webwiznitr.xyz/assets/img/logo.png' width='200'>
  </p>
-<h1 align='center'> Webwiz-revamp 🐱‍👤 </h1>
+<h1 align='center'> Webwiz Portfolio 🐱‍👤 </h1>
 We at WebWiz, aspire to meet all your web development needs at your fingertips. We take pride in not just being able to deliver quality work before deadlines but also in going the extra mile for curating your personalized website wherever and whenever there is scope. We make sure that the best design and technical challenges are in tandem so that the website owns an exquisite front while being swift and intelligible simultaneously.
 
 <img src='https://github.com/Aniket762/Webwiz-revamp/blob/main/webwiz-portfolio-ui.png?raw=true'>
-
-
-
 
 Project has following functionalities
 1. Creating a Component in React
@@ -16,6 +13,13 @@ Project has following functionalities
 3. Communicating between parent and child component
 4. Using Material-UI along with React
 5. Using Basic Routing in React
+
+[![Starware](https://img.shields.io/badge/⭐-Starware-f5a91a?labelColor=black)](https://github.com/zepfietje/starware)
+
+Webwiz-portfolio is Starware.  
+This means you're free to use the project, as long as you star its GitHub repository.  
+Your appreciation makes us grow and glow up. ⭐
+
 
 # Prerequisites 👨‍💻
 
@@ -88,6 +92,7 @@ P.S. For the image key if you cannot use require('') function then put an image 
 
 ### 🚀 Please abide by  [Contributing Guidelines](https://github.com/Aniket762/Webwiz-revamp/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Aniket762/Webwiz-revamp/blob/main/CODE_OF_CONDUCT.md).
 
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -109,3 +114,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+

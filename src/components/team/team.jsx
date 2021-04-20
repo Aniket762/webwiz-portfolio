@@ -21,7 +21,7 @@ function team() {
           <InfoRow imgStart="true">
             <InfoColumn>
               <TextWrapper>
-                <TopLine lightTopLine="true">#team</TopLine>
+                <TopLine lightTopLine="true">#Team</TopLine>
                 <Heading lightText="true">Lorem ipsum dolor sit amet consectetur </Heading>
                 <Subtitle lightTextDesc="true">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consec </Subtitle>
                 <Button > Let's meet all</Button>
