@@ -1,8 +1,10 @@
+<p align='center'>
+<img src='https://webwiznitr.xyz/assets/img/logo.png' width='200'>
+ </p>
 <h1 align='center'> Webwiz-revamp 🐱‍👤 </h1>
 We at WebWiz, aspire to meet all your web development needs at your fingertips. We take pride in not just being able to deliver quality work before deadlines but also in going the extra mile for curating your personalized website wherever and whenever there is scope. We make sure that the best design and technical challenges are in tandem so that the website owns an exquisite front while being swift and intelligible simultaneously.
 
-`If you like it leave a ⭐`
- <img src='https://github.com/Aniket762/Webwiz-revamp/blob/main/webwiz-portfolio-ui.png?raw=true'>
+<img src='https://github.com/Aniket762/Webwiz-revamp/blob/main/webwiz-portfolio-ui.png?raw=true'>
 
 
 
@@ -64,5 +66,23 @@ Please refer to the project's style and contribution guidelines for submitting p
  3. **Commit** changes to your own branch
  4. **Push** your work back up to your fork
  5. Submit a **Pull request** so that we can review your changes
+
+# Only for Webwiz team members 🐘
+ 1. Go to `/Webwiz-revamp/src/pages/teamData`
+ 2. Feed your data 
+ 3. Upload a favorite photo of yours in the `assets` folder in `Webwiz-revamp/src/assets/images`
+ 4. Sample data 
+```bash
+  {
+            "name":"Aniket Pal",
+            "image":"https://aniket.live/img/aniket.jpeg",
+            "tagline":"Founder",
+            "github":"https://www.github.com/Aniket762",
+            "linkedin":"https://www.linkedin.com/in/aniket-pal/",
+            "instagram":"https://www.instagram.com/itzaniket_762"
+        
+    }
+```
+P.S. For the image key if you cannot use require('') function then put an image link we will fetch it from assets folder no worries 🤘
 
 ### 🚀 Please abide by  [Contributing Guidelines](https://github.com/Aniket762/Webwiz-revamp/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Aniket762/Webwiz-revamp/blob/main/CODE_OF_CONDUCT.md).
