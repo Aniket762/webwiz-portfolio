@@ -29,7 +29,7 @@ const teamData = [
     {
         "name":"Sayantan Chatterjee",
         "tagline":"Member",
-        "image": "https://instagram.fblr22-1.fna.fbcdn.net/v/t51.2885-15/e35/51402502_151591442506747_1434238448975862976_n.jpg?tp=1&_nc_ht=instagram.fblr22-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=buEiRheBOsEAX_b99pI&edm=AABBvjUAAAAA&ccb=7-4&oh=4062e8811368a3ea39a8d6fc1eb367c9&oe=60A37E97&_nc_sid=83d603 ",
+        "image": require('../assets/images/SayantanChatterjee.jpeg').default ,
         "github":"https://github.com/Sayantan-Ch",
         "linkedin":"https://www.linkedin.com/in/sayantan-chatterjee-400784208/",
         "instagram":"https://www.instagram.com/sayantan__ch/"  
