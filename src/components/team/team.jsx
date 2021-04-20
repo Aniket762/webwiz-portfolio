@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaRegQuestionCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
 import InfoSection from '../info/info';
@@ -10,7 +11,7 @@ const Button = styled.button`
   border: 0;
   outline: 0;
   padding: 8px 1em;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
   border-radius: 20px;
@@ -35,7 +36,7 @@ function team() {
 
         <h1>#teams</h1>
         <InfoSection {...maindata} />
-            
+      <Link to='/team'><Button > Let's meet all</Button></Link>  
         </div>
     )
 }

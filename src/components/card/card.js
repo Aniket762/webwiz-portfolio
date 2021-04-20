@@ -26,7 +26,7 @@ export default function MediaCard(props) {
               <CardMedia
              className={classes.media}
             image={props.image}
-            title="Developer Lee"
+            title={props.name}
 
         />
         <CardContent>

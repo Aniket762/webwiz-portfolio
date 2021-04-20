@@ -24,7 +24,7 @@ function team() {
     return (
         <div className='App'>
             <h1>TEAM</h1>
-            <Grid lg={12} item container spacing={2} align='center'>
+            <Grid lg={12} item container spacing={4} align='center'>
             {teamData.map(createCard)}
             </Grid>
                 

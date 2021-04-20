@@ -9,7 +9,7 @@ export const maindata = {
       'Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consec ',
     buttonLabel: 'Find Speed',
     imgStart: 'start',
-    img: '',
+    img: 'https://github.com/Aniket762/Webwiz-revamp/blob/main/src/assets/images/team-webwiz.png?raw=true',
     alt: 'Vault',
     start: 'true'
 };
