@@ -1,0 +1,38 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "sumana2001",
+      "name": "Sumana Basu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63084088?v=4",
+      "profile": "https://sumana.live/",
+      "contributions": [
+        "infra",
+        "code"
+      ]
+    },
+    {
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67703407?v=4",
+      "profile": "https://aniket.live",
+      "contributions": [
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Webwiz-revamp",
+  "projectOwner": "Aniket762",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
