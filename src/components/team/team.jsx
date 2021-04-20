@@ -1,44 +1,42 @@
 import React from 'react';
-import { FaRegQuestionCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import styled from "styled-components";
-
-import InfoSection from '../info/info';
-import { maindata } from './teamData';
-
-
-const Button = styled.button`
-  border: 0;
-  outline: 0;
-  padding: 8px 1em;
-  color: #000;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 20px;
-  background-color: transparent;
-  border: 2px solid #490055;
-  transition: all 240ms ease-in-out;
-  cursor: pointer;
-
-  &:hover {
-    color: #fff;
-    background-color: #490055;
-  }
-
-  &:not(:last-of-type) {
-    margin-right: 7px;
-  }
-`;
+import {
+  InfoSec,
+  InfoRow,
+  InfoColumn,
+  TextWrapper,
+  TopLine,
+  Heading,
+  Subtitle,
+  ImgWrapper,
+    Img,
+    Container,
+    Button
+} from './teamElements';
 
 function team() {
-    return (
-        <div>
-
-        <h1>#teams</h1>
-        <InfoSection {...maindata} />
-      <Link to='/team'><Button > Let's meet all</Button></Link>  
-        </div>
-    )
+  return (
+    <>
+      <InfoSec lightBg="true">
+        <Container>
+          <InfoRow imgStart="true">
+            <InfoColumn>
+              <TextWrapper>
+                <TopLine lightTopLine="true">#team</TopLine>
+                <Heading lightText="true">Lorem ipsum dolor sit amet consectetur </Heading>
+                <Subtitle lightTextDesc="true">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consec </Subtitle>
+                <Button > Let's meet all</Button>
+              </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start="true">
+                <Img src="https://github.com/Aniket762/Webwiz-revamp/blob/main/src/assets/images/team-webwiz.png?raw=true" alt="team" />
+              </ImgWrapper>
+            </InfoColumn>
+          </InfoRow>
+        </Container>
+      </InfoSec>
+    </>
+  );
 }
 
 export default team
