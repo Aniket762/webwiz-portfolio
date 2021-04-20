@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../components/card/card';
 import teamData from './teamData';
 import {Grid} from '@material-ui/core';
+import Footer from '../components/footer/footer';
 
 
 function createCard(teamData) {
@@ -27,8 +28,7 @@ function team() {
             <Grid lg={12} item container spacing={2} align='center'>
             {teamData.map(createCard)}
             </Grid>
-                
-            
+            <Footer/>
         </div>
     );
 }

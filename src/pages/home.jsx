@@ -3,6 +3,7 @@ import Hero from '../components/hero/hero';
 import About from '../components/about/about';
 import Event from '../components/events/events';
 import Team from '../components/team/team';
+import Footer from '../components/footer/footer';
 
 function home() {
     return (
@@ -11,6 +12,7 @@ function home() {
             <About />
             <Event />
             <Team />
+            <Footer/>
         </div>
     )
 }
