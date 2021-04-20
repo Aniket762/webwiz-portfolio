@@ -1,4 +1,3 @@
-
 const teamData = [
     {
             "name":"Aniket Pal",
