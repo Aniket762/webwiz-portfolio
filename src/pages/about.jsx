@@ -1,8 +1,9 @@
 import React from 'react';
+import About from '../components/about/about';
 function about() {
     return (
         <div className='App'>
-            <h1>ABOUT</h1>
+            <About/>
         </div>
     )
 }
