@@ -1,6 +1,9 @@
 import React from 'react';
+import { FaRegQuestionCircle } from 'react-icons/fa';
 import styled from "styled-components";
 
+import InfoSection from '../info/info';
+import { maindata } from './teamData';
 
 
 const Button = styled.button`
@@ -29,8 +32,9 @@ const Button = styled.button`
 function team() {
     return (
         <div>
-           <h1>#team</h1>
-            
+
+        <h1>#teams</h1>
+        <InfoSection {...maindata} />
             
         </div>
     )
