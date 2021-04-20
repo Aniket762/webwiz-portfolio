@@ -1,12 +1,13 @@
 import React from 'react';
 import Card from '../components/card/card';
 import teamData from './teamData';
-import {Grid} from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 
 
-function createCard(teamData) {
-    return (
-      <Grid item lg={4} md={4} sm={6} xs={12}>
+function createCard(teamData)
+{
+  return (
+    <Grid item lg={3} md={4} sm={6} xs={12}>
       <Card
         key={teamData.id}
         image={teamData.image}
@@ -14,21 +15,22 @@ function createCard(teamData) {
         tagline={teamData.tagline}
         github={teamData.github}
         linkedin={teamData.linkedin}
-        instagram = {teamData.instagram}    
+        instagram={teamData.instagram}
       />
-      </Grid>
-    );
-  }
+    </Grid>
+  );
+}
 
-function team() {
-    return (
-        <div className='App'>
-            <h1>TEAM</h1>
-            <Grid lg={12} item container spacing={4} align='center'>
-            {teamData.map(createCard)}
-            </Grid>
-        </div>
-    );
+function team()
+{
+  return (
+    <div className='App'>
+      <h1>TEAM</h1>
+      <Grid lg={12} item container spacing={3} align='center'>
+        {teamData.map(createCard)}
+      </Grid>
+    </div>
+  );
 }
 
 export default team
