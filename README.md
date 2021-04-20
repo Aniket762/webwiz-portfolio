@@ -1,4 +1,7 @@
 <p align='center'>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <img src='https://webwiznitr.xyz/assets/img/logo.png' width='200'>
  </p>
 <h1 align='center'> Webwiz-revamp 🐱‍👤 </h1>
@@ -86,3 +89,23 @@ Please refer to the project's style and contribution guidelines for submitting p
 P.S. For the image key if you cannot use require('') function then put an image link we will fetch it from assets folder no worries 🤘
 
 ### 🚀 Please abide by  [Contributing Guidelines](https://github.com/Aniket762/Webwiz-revamp/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/Aniket762/Webwiz-revamp/blob/main/CODE_OF_CONDUCT.md).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://sumana.live/"><img src="https://avatars.githubusercontent.com/u/63084088?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="#infra-sumana2001" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Aniket762/Webwiz-revamp/commits?author=sumana2001" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
