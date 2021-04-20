@@ -24,6 +24,14 @@ const teamData = [
             "github":"https://www.github.com/sumana2001",
             "linkedin":"https://www.linkedin.com/in/sumana-basu/",
             "instagram":"https://www.instagram.com/sumanasuchira"  
+    },
+    {
+        "name":"Sneha Mallik",
+        "image":"../assets/images/sneha.jpg",
+        "tagline":"President",
+        "github":"https://github.com/snehaM2210",
+        "linkedin":"https://www.linkedin.com/in/sneha-mallik-736170191/",
+        "instagram":"https://www.instagram.com/_sneham2210/"  
     }
 ]
 
