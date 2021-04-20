@@ -27,8 +27,6 @@ function team() {
             <Grid lg={12} item container spacing={4} align='center'>
             {teamData.map(createCard)}
             </Grid>
-                
-            
         </div>
     );
 }
