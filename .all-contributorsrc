@@ -27,10 +27,19 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "debasish-creator",
+      "name": "Debasish MIshra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76249530?v=4",
+      "profile": "https://github.com/debasish-creator",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "Webwiz-revamp",
+  "projectName": "webwiz-portfolio",
   "projectOwner": "Aniket762",
   "repoType": "github",
   "repoHost": "https://github.com",
