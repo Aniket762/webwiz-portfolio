@@ -53,6 +53,15 @@ const teamData = [
         "github":"https://github.com/gouravmohanty7070",
         "linkedin":"https://www.linkedin.com/in/gourav-mohanty-78006a201",
         "instagram":"https://www.instagram.com/_gourav.mohanty/"  
+    },
+    {
+            "name":"Ankush Kumar Lohani",
+            "image":require('../assets/images/WhatsApp Image 2021-04-25 at 1.30.25 PM.jpg').default,
+            "tagline":"Developer",
+            "github":"https://github.com/iamakl",
+            "linkedin":"https://www.linkedin.com/in/iamakl/",
+            "instagram":"https://www.instagram.com/iam__akl/"
+        
     }
 
 ]
