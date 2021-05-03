@@ -102,9 +102,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-   <td align="center"><a href="https://aniket.live"><img src="https://avatars.githubusercontent.com/u/67703407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="#infra-Aniket762" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a><a href="https://github.com/Aniket762/Webwiz-revamp/commits?author=Aniket762" title="Code">💻</a> <a href="#maintenance-Aniket762" title="Maintenance">🚧</a> <a href="#projectManagement-Aniket762" title="Project Management">📆</a> <a href="https://github.com/Aniket762/Webwiz-revamp/commits?author=Aniket762" title="Tests">⚠️</a> </td>
-    <td align="center"><a href="https://sumana.live/"><img src="https://avatars.githubusercontent.com/u/63084088?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="#infra-sumana2001" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Aniket762/Webwiz-revamp/commits?author=sumana2001" title="Code">💻</a></td>
-    
+    <td align="center"><a href="https://sumana.live/"><img src="https://avatars.githubusercontent.com/u/63084088?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="#infra-sumana2001" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=sumana2001" title="Code">💻</a></td>
+    <td align="center"><a href="https://aniket.live"><img src="https://avatars.githubusercontent.com/u/67703407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="#infra-Aniket762" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Aniket762" title="Maintenance">🚧</a> <a href="#projectManagement-Aniket762" title="Project Management">📆</a> <a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=Aniket762" title="Tests">⚠️</a> <a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=Aniket762" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/debasish-creator"><img src="https://avatars.githubusercontent.com/u/76249530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Debasish MIshra</b></sub></a><br /><a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=debasish-creator" title="Code">💻</a></td>
   </tr>
 </table>
 
