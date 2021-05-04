@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const AccessibilityContainer = styled.div`
   display: flex;
-  margin-left: 10px;
+  margin-left: 45px;
 `;
 
 
