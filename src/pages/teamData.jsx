@@ -31,7 +31,7 @@ const teamData = [
 
 
         "name":"Sanjeet Patro",
-        "image":require('../assets/images/farewell.jpg').default,
+        "image":require('../assets/data/farewell.jpg').default,
         "tagline":"Design Team",
         "github":"https://github.com/sanjeet-crypto",
         "linkedin":"https://www.linkedin.com/in/sanjeet-patro-6a1067202/",
@@ -41,7 +41,7 @@ const teamData = [
 
         "name":"Sayantan Chatterjee",
         "tagline":"Mangement Team",
-        "image": require('../assets/images/SayantanChatterjee.jpeg').default ,
+        "image": require('../assets/data/SayantanChatterjee.jpeg').default ,
         "github":"https://github.com/Sayantan-Ch",
         "linkedin":"https://www.linkedin.com/in/sayantan-chatterjee-400784208/",
         "instagram":"https://www.instagram.com/sayantan__ch/"  
@@ -56,8 +56,8 @@ const teamData = [
     },
     {
             "name":"Ankush Kumar Lohani",
-            "image":require('../assets/images/WhatsApp Image 2021-04-25 at 1.30.25 PM.jpg').default,
-            "tagline":"Developer",
+            "image":require('../assets/data/ankush.jpeg').default,
+            "tagline":"Management Team",
             "github":"https://github.com/iamakl",
             "linkedin":"https://www.linkedin.com/in/iamakl/",
             "instagram":"https://www.instagram.com/iam__akl/"
