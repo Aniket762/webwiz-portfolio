@@ -62,6 +62,15 @@ const teamData = [
             "linkedin":"https://www.linkedin.com/in/iamakl/",
             "instagram":"https://www.instagram.com/iam__akl/"
         
+    },
+    {
+            "name":"Komal",
+            "image":require('../assets/data/komald.jpeg').default,
+            "tagline":"Web Developer",
+            "github":"https://github.com/komal1503",
+            "linkedin":"https://www.linkedin.com/in/komal-deegwal-35b31a206",
+            "instagram":"https://www.instagram.com/komal15012003/"
+        
     }
 
 ]
