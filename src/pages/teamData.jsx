@@ -73,6 +73,23 @@ const teamData = [
     linkedin: "https://www.linkedin.com/in/hemant-bajaj-7b8082204/",
     instagram: "https://www.instagram.com/hemant_bajaj_/",
   },
+  {
+    name: "Manjeet Dhayal",
+    image: require("../assets/data/manjeet.jpg").default,
+    tagline: "Web Developer",
+    github: "https://github.com/manjeetdhayal",
+    linkedin: "https://www.linkedin.com/in/manjeet-dhayal-194953209/",
+    instagram: "https://www.instagram.com/___manjeet_/",
+  },
+  {
+    name: "Debasish Mishra",
+    image: require("../assets/data/debasish.jpg").default,
+    tagline: "Web Developer",
+    github: "https://github.com/debasish-creator",
+    linkedin: "https://www.linkedin.com/in/debasish-mishra-86135b129/",
+    instagram: "https://www.instagram.com/debasishmishra31/",
+  },
+  
 ];
 
 export default teamData;
