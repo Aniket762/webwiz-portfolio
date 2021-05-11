@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const InfoSec = styled.div`
   color: #fff;
   padding: 50px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
 `;
 
 export const InfoRow = styled.div`
@@ -11,7 +11,7 @@ export const InfoRow = styled.div`
 
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
+  flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
 `;
 
 export const InfoColumn = styled.div`
@@ -32,6 +32,7 @@ export const TextWrapper = styled.div`
   padding-top: 0;
 
   @media screen and (max-width: 768px) {
+    margin-top: 70px;
     padding-bottom: 65px;
   }
 `;
@@ -39,20 +40,20 @@ export const TextWrapper = styled.div`
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#710193' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? "#710193" : "#4B59F7")};
   font-size: 30px;
-  text-align:left;
+  text-align: left;
   line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
 
-  @media screen and (max-width:768px){
-      text-align:center;
+  @media screen and (max-width: 768px) {
+    text-align: center;
   }
 `;
 
@@ -75,20 +76,20 @@ export const Container = styled.div`
   padding-left: 50px;
 `;
 
-
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#000000' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? "#000000" : "#1c2237")};
 `;
 
 export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? 'rgba(85,85,85,0.95)' : '#1c2237')};
+  color: ${({ lightTextDesc }) =>
+    lightTextDesc ? "rgba(85,85,85,0.95)" : "#1c2237"};
 `;
 
 export const Button = styled.button`
