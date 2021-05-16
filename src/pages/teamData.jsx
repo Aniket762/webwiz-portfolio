@@ -83,7 +83,7 @@ const teamData = [
   },
   {
     name: "Debasish Mishra",
-    image: require("../assets/data/debasish.jpg").default,
+    image: require("../assets/data/debasish.jpeg").default,
     tagline: "Web Developer",
     github: "https://github.com/debasish-creator",
     linkedin: "https://www.linkedin.com/in/debasish-mishra-86135b129/",

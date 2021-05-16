@@ -14,7 +14,6 @@ export const SocialIcons = styled.div`
   justify-content:space-around;
   align-items: center;
   width: 240px;
-  margin-left:10px
 `;
 
 export const SocialIconLink = styled.a`

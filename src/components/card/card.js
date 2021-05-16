@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { Name,Tagline, SocialIcons, SocialIconLink } from "./cardElement";
 
 const useStyles = makeStyles({
@@ -39,20 +39,6 @@ export default function MediaCard(props) {
               aria-label="Github"
             >
               <FaGithub />
-            </SocialIconLink>
-            <SocialIconLink
-              href={props.linkedin}
-              target="_blank"
-              aria-label="Linkedin"
-            >
-              <FaLinkedin />
-            </SocialIconLink>
-            <SocialIconLink
-              href={props.instagram}
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
             </SocialIconLink>
           </SocialIcons>
         </CardContent>
