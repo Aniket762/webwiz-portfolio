@@ -37,9 +37,7 @@ function createCard(projectData) {
         image={projectData.image}
         name={projectData.name}
         tagline={projectData.tagline}
-        github={projectData.github}
-        linkedin={projectData.linkedin}
-        instagram = {projectData.instagram}    
+        github={projectData.github}    
       />
       </Grid>
     );
