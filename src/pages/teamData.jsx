@@ -89,6 +89,14 @@ const teamData = [
     linkedin: "https://www.linkedin.com/in/debasish-mishra-86135b129/",
     instagram: "https://www.instagram.com/debasishmishra31/",
   },
+  {
+    name: "Padmaja Bhol",
+    image: require("../assets/data/padmaja.jpg").default,
+    tagline: "Web Developer",
+    github: "https://github.com/padmajabhol",
+    linkedin: "https://www.linkedin.com/in/padmaja-bhol-9326941b5/",
+    instagram: "https://www.instagram.com/padmaja.bhol/",
+  },
   
 ];
 
