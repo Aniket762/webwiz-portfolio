@@ -43,14 +43,14 @@ export function NavLinks(props) {
     <NavLinksContainer>
       <LinksWrapper>
         <LinkItem>
-          <Link href="/">🏡</Link>
+          <Link href="/">Home</Link>
         </LinkItem>
         <LinkItem>
           <Link href="/about">About us</Link>
         </LinkItem>
-        <LinkItem>
+        {/* <LinkItem>
           <Link href="/projects">Projects</Link>
-        </LinkItem>
+        </LinkItem> */}
         <LinkItem>
           <Link href="/team">Team</Link>
         </LinkItem>

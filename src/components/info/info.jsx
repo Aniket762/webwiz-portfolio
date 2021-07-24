@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import {
   InfoSec,
   InfoRow,
@@ -10,8 +9,7 @@ import {
   Subtitle,
   ImgWrapper,
     Img,
-    Container,
-    Button
+    Container
 } from './info.elements';
 
 function InfoSection({

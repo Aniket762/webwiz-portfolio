@@ -84,9 +84,9 @@ export function MobileNavLinks(props) {
           <LinkItem>
             <Link href="/about">About</Link>
           </LinkItem>
-          <LinkItem>
+          {/* <LinkItem>
             <Link href="/projects">Projects</Link>
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem>
             <Link href="/team">Team</Link>
           </LinkItem>

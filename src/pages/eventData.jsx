@@ -112,5 +112,4 @@ export const right4 = {
 };
 
 
-{/* community collaboration - random logos ka collage */ }
 
