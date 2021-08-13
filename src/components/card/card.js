@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaGithub,FaInstagram,FaLinkedin } from "react-icons/fa";
 import { Name,Tagline, SocialIcons, SocialIconLink } from "./cardElement";
 
 const useStyles = makeStyles({
@@ -52,7 +52,7 @@ export default function MediaCard(props) {
               target="_blank"
               aria-label="Instagram"
             >
-              <FaInstagram />
+             <FaInstagram />
             </SocialIconLink>
           </SocialIcons>
         </CardContent>

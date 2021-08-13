@@ -1,7 +1,3 @@
-<p align='center'>
-
-<img src='https://webwiznitr.xyz/assets/img/logo.png' width='200'>
- </p>
 <h1 align='center'> Webwiz Portfolio 🐱‍👤 </h1>
 We at WebWiz, aspire to meet all your web development needs at your fingertips. We take pride in not just being able to deliver quality work before deadlines but also in going the extra mile for curating your personalized website wherever and whenever there is scope. We make sure that the best design and technical challenges are in tandem so that the website owns an exquisite front while being swift and intelligible simultaneously.
 
@@ -105,6 +101,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://sumana.live/"><img src="https://avatars.githubusercontent.com/u/63084088?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="#infra-sumana2001" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=sumana2001" title="Code">💻</a></td>
     <td align="center"><a href="https://aniket.live"><img src="https://avatars.githubusercontent.com/u/67703407?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="#infra-Aniket762" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-Aniket762" title="Maintenance">🚧</a> <a href="#projectManagement-Aniket762" title="Project Management">📆</a> <a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=Aniket762" title="Tests">⚠️</a> <a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=Aniket762" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/debasish-creator"><img src="https://avatars.githubusercontent.com/u/76249530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Debasish MIshra</b></sub></a><br /><a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=debasish-creator" title="Code">💻</a></td>
+    <td align="center"><a href="http://bartek532.github.io/portfolio"><img src="https://avatars.githubusercontent.com/u/57185551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bartosz Zagrodzki</b></sub></a><br /><a href="https://github.com/Aniket762/webwiz-portfolio/commits?author=Bartek532" title="Code">💻</a> <a href="https://github.com/Aniket762/webwiz-portfolio/issues?q=author%3ABartek532" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

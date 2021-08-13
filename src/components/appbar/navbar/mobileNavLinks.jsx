@@ -7,6 +7,8 @@ const NavLinksContainer = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 100;
 `;
 
 const LinksWrapper = styled.ul`
@@ -19,57 +21,40 @@ const LinksWrapper = styled.ul`
   width: 100%;
   flex-direction: column;
   position: fixed;
-  top: 65px;
+  top: 75px;
   left: 0;
 `;
 
 const LinkItem = styled.li`
   width: 100%;
-  padding: 1rem 4em;
   color: #222;
   font-weight: 500;
   font-size: 16px;
   display: flex;
-  margin-bottom: 10px;
-  &:before,
-  &:after {
+  margin-bottom: 5px;
+  transition: color 0.3s;
+  position: relative;
+  z-index: 1;
+
+  &::before {
     position: absolute;
     content: "";
-    display: block;
-    width: 0;
-    height: 5%;
-    transition: all 600ms 10ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    z-index: 1;
-  }
-
-  &:before {
-    left: 0;
-  }
-
-  &:after {
-    height: 10%;
-    transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    width: 10%;
-    right: 0;
     top: 0;
-  }
-  &:hover{
-    color: white;
-  }
-  &:hover:before {
-    background: linear-gradient(to right, #7f00ff, #e100ff);
-    width: 100%;
-    margin-left: 5%;
-    margin-top: -2%;
-    height: 7%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #7f00ff, #e100ff);
     z-index: -1;
-    border-radius: 0px;
+    transition: opacity 0.3s;
+    opacity: 0;
   }
 
-  &:hover:after {
-    ${'' /* color: #fff; */}
-    width: 0px;
-    color: #fff;
+  &:hover {
+    color: white;
+
+    &::before {
+      opacity: 1;
+    }
   }
 `;
 
@@ -77,6 +62,8 @@ const Link = styled.a`
   text-decoration: none;
   color: inherit;
   font-size: inherit;
+  width: 100%;
+  padding: 1rem 4rem;
 `;
 
 const Marginer = styled.div`
@@ -97,9 +84,9 @@ export function MobileNavLinks(props) {
           <LinkItem>
             <Link href="/about">About</Link>
           </LinkItem>
-          <LinkItem>
+          {/* <LinkItem>
             <Link href="/projects">Projects</Link>
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem>
             <Link href="/team">Team</Link>
           </LinkItem>
