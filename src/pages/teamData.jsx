@@ -93,11 +93,11 @@ const teamData = [
 
   {
     name: "Sayna Parida",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628943589/webwiz-portfolio/team-images/team-webwiz/sayna%20parida.jpg",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628946398/webwiz-portfolio/team-images/team-webwiz/Profile_Photo_-_Sayna_Parida_aenwfs.jpg",
     tagline: "Ex-Vice President",
-    github: "",
-    linkedin: "",
-    instagram: "",
+    github: "https://github.com/sayna3311",
+    linkedin: "https://www.linkedin.com/in/sayna-parida-b2b63b1aa/",
+    instagram: "https://www.instagram.com/say_naaa/",
   },
 
   {
