@@ -21,6 +21,7 @@ const SubHeading = styled.div`
   color: #710193;
   line-height:4;
   font-weight:600;
+  margin-top: 50px;
 
   @media screen and (max-width: 1324px) {  
     font-size:40px;
@@ -31,14 +32,21 @@ const SubHeading = styled.div`
 const Content = styled.p`
   font-family: "metropolis-regular", sans-serif;
   font-size: 30px;
-  padding:50px;
+  padding: 3rem 9rem 3rem 9rem;
   margin-top:-40px;
   line-height: 1.7;
   margin-bottom: 3.6rem;
   color: rgba(85, 85, 85, 0.95);
+  text-align: left;
 
   @media screen and (max-width: 1324px) {  
     font-size:20px;
+    padding: 3rem 5rem 3rem 5rem;
+  }
+
+  @media screen and (max-width: 550px) {  
+    font-size:20px;
+    padding: 2rem 3rem 2rem 3rem;
   }
  
 `;
