@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const AccessibilityContainer = styled.div`
   display: flex;
-  margin-left: 45px;
+  margin: 1rem auto 1rem auto;
 `;
 
 
@@ -19,6 +19,8 @@ const LoginButton = styled.button`
   border: 2px solid #2B0032;
   transition: all 240ms ease-in-out;
   cursor: pointer;
+  text-align: center;
+  ${'' /* position: center; */}
 
   &:hover {
     color: #F6F6F6;
