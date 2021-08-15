@@ -1,21 +1,5 @@
 // const teamDataPostHolders =[
-//   {
-//     name: "a",
-//     image: "",
-//     tagline: "",
-//     github: "",
-//     linkedin: "",
-//     instagram: "",
-//   },
 
-//   {
-//     name: "b",
-//     image: "",
-//     tagline: "",
-//     github: "",
-//     linkedin: "",
-//     instagram: "",
-//   },
 // ];
 
 const teamData = [
@@ -32,9 +16,9 @@ const teamData = [
     name: "Rituraj Tripathy",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628944075/webwiz-portfolio/team-images/team-webwiz/Rituraj%20Tripathy.png",
     tagline: "Vice President",
-    github: "",
-    linkedin: "",
-    instagram: "",
+    github: "https://github.com/rituraj2000",
+    linkedin: "https://www.linkedin.com/in/rituraj-tripathy-a666aa20b",
+    instagram: "https://www.instagram.com/riturajtripathy007/",
   },
 
   {
@@ -103,6 +87,60 @@ const teamData = [
   },
 
   {
+    name: "Aman",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923004/webwiz-portfolio/team-images/team-webwiz/final_-_Aman_Bishnoi_vzhag8.png",
+    tagline: "Technical Team",
+    github: "https://github.com/aman248",
+    linkedin: "",
+    instagram: "",
+  },
+
+  {
+    name: "Divya Sri Darimisetti",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923142/webwiz-portfolio/team-images/team-webwiz/IMG_20201212_220124_-_Divya_Sri_Darimisetti_bqee6w.jpg",
+    tagline: "Technical Team",
+    github: "github.com/irsayvid",
+    linkedin: "https://www.linkedin.com/in/divya-sri-darimisetti",
+    instagram: "instagram.com/irs.ayvid",
+  },
+
+  {
+    name: "Nirmal Chathura",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628924035/webwiz-portfolio/team-images/team-webwiz/Nirmal_Chathura_-_Nirmal_C_sbysis.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/Nirmal-C",
+    linkedin: "https://www.linkedin.com/in/nirmal-chathura/",
+    instagram: "https://www.instagram.com/nirmal_cu/",
+  },
+
+  {
+    name: "Sayantan Maiti",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923292/webwiz-portfolio/team-images/team-webwiz/IMG_20210428_173158_-_Sayantan_Maiti_iltacw.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/SayantanMaiti",
+    linkedin: "https://www.linkedin.com/sayantanmaiti17",
+    instagram: "https://www.instagram.com/sayan_maiti_/",
+  },
+
+  {
+    name: "Sneha Mallik",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923030/webwiz-portfolio/team-images/team-webwiz/iamSneha_-_Sneha_Mallik_ixmog0.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/snehaM2210",
+    linkedin: "https://www.linkedin.com/in/sneha-mallik-736170191/",
+    instagram: "https://www.instagram.com/_sneham2210/",
+  },
+
+  {
+    name: "Uditanshu Satpathy",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628924119/webwiz-portfolio/team-images/team-webwiz/Photo_-_Uditanshu_Satpathy_pioslh.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/uditanshu23",
+    linkedin: "https://www.linkedin.com/in/uditanshu-satpathy-90a10917b/",
+    instagram: "https://www.instagram.com/_udit.sat_/",
+  },
+
+  {
     name: "Abhas Abhirup",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628922940/webwiz-portfolio/team-images/team-webwiz/20201115_002039_-_Abhas_Abhirup_zxc4mk.jpg",
     tagline: "Technical Team",
@@ -135,15 +173,6 @@ const teamData = [
     tagline: "Technical Team",
     github: "https://github.com/imakashmishra24",
     linkedin: "https://www.linkedin.com/in/akash-m-ab9210136/",
-    instagram: "",
-  },
-
-  {
-    name: "Aman",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923004/webwiz-portfolio/team-images/team-webwiz/final_-_Aman_Bishnoi_vzhag8.png",
-    tagline: "Technical Team",
-    github: "https://github.com/aman248",
-    linkedin: "",
     instagram: "",
   },
 
@@ -247,15 +276,6 @@ const teamData = [
   },
 
   {
-    name: "Divya Sri Darimisetti",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923142/webwiz-portfolio/team-images/team-webwiz/IMG_20201212_220124_-_Divya_Sri_Darimisetti_bqee6w.jpg",
-    tagline: "Technical Team",
-    github: "github.com/irsayvid",
-    linkedin: "https://www.linkedin.com/in/divya-sri-darimisetti",
-    instagram: "instagram.com/irs.ayvid",
-  },
-
-  {
     name: "Gourab Nanda",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628924348/webwiz-portfolio/team-images/team-webwiz/profile_pic_-_Gourab_Nanda_o4xurp.jpg",
     tagline: "Technical Team",
@@ -274,12 +294,12 @@ const teamData = [
   },
 
   {
-    name: "Insha Mustafa ",
+    name: "Insha Mustafa",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628922952/webwiz-portfolio/team-images/team-webwiz/59135FA9-0BE0-4987-8524-23D75F0EFC77_-_Insha_Mustafa_umrmkh.jpg",
     tagline: "Design Team",
     github: "https://github.com/Insha33",
-    linkedin: "",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/mwlite/in/insha-mustafa-5b4965200",
+    instagram: "https://www.instagram.com/insha.__63/",
   },
 
   {
@@ -352,15 +372,6 @@ const teamData = [
     github: "https://github.com/Neeraj2002",
     linkedin: "https://www.linkedin.com/in/neeraj-rathod-0b54281b9",
     instagram: "https://www.instagram.com/neeraj_rathod_0702/",
-  },
-
-  {
-    name: "Nirmal Chathura",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628924035/webwiz-portfolio/team-images/team-webwiz/Nirmal_Chathura_-_Nirmal_C_sbysis.jpg",
-    tagline: "Technical Team",
-    github: "https://github.com/Nirmal-C",
-    linkedin: "https://www.linkedin.com/in/nirmal-chathura/",
-    instagram: "https://www.instagram.com/nirmal_cu/",
   },
 
   {
@@ -463,15 +474,6 @@ const teamData = [
   },
 
   {
-    name: "Sayantan Maiti",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923292/webwiz-portfolio/team-images/team-webwiz/IMG_20210428_173158_-_Sayantan_Maiti_iltacw.jpg",
-    tagline: "Technical Team",
-    github: "https://github.com/SayantanMaiti",
-    linkedin: "https://www.linkedin.com/sayantanmaiti17",
-    instagram: "https://www.instagram.com/sayan_maiti_/",
-  },
-
-  {
     name: "Shibu Puty",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628922948/webwiz-portfolio/team-images/team-webwiz/2z9cft_-_shibu_puty_ylp0mi.jpg",
     tagline: "Technical Team",
@@ -487,16 +489,6 @@ const teamData = [
     github: "https://github.com/ShreyaKhetan765",
     linkedin: "https://www.linkedin.com/in/shreya-khetan-9b6255a8",
     instagram: "https://www.instagram.com/khetan.shreya/",
-  },
-  
-
-  {
-    name: "Sneha Mallik",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923030/webwiz-portfolio/team-images/team-webwiz/iamSneha_-_Sneha_Mallik_ixmog0.jpg",
-    tagline: "Technical Team",
-    github: "https://github.com/snehaM2210",
-    linkedin: "https://www.linkedin.com/in/sneha-mallik-736170191/",
-    instagram: "https://www.instagram.com/_sneham2210/",
   },
 
   {
@@ -515,15 +507,6 @@ const teamData = [
     github: "https://github.com/Shanu79",
     linkedin: "https://www.linkedin.com/mwlite/in/swagat-raj-8924691b7",
     instagram: "https://www.instagram.com/_shanu.1000_7/",
-  },
- 
-  {
-    name: "Uditanshu Satpathy",
-    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628924119/webwiz-portfolio/team-images/team-webwiz/Photo_-_Uditanshu_Satpathy_pioslh.jpg",
-    tagline: "Technical Team",
-    github: "https://github.com/uditanshu23",
-    linkedin: "https://www.linkedin.com/in/uditanshu-satpathy-90a10917b/",
-    instagram: "https://www.instagram.com/_udit.sat_/",
   },
 
 ];

@@ -35,6 +35,7 @@ const LinkItem = styled.li`
   transition: color 0.3s;
   position: relative;
   z-index: 1;
+  text-align: center;
 
   &::before {
     position: absolute;

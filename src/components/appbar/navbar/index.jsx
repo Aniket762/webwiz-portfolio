@@ -8,6 +8,9 @@ import { DeviceSize } from "../responsive";
 import { MobileNavLinks } from "./mobileNavLinks";
 
 const NavbarContainer = styled.div`
+  position: sticky;
+  top: 0;
+  z-index: 1;
   width: 100%;
   height: 80px;
   box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
