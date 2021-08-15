@@ -68,9 +68,11 @@ const teamData = [
     name: "Sai Ashish",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628944070/webwiz-portfolio/team-images/team-webwiz/Sai%20Ashish.jpg",
     tagline: "Design Lead",
+
     github: "https://github.com/saiashishanshuman",
     linkedin: "https://www.linkedin.com/in/sai-ashish-anshuman-5b4007194",
     instagram: "https://www.instagram.com/sai_with_an_ashish/",
+
   },
   
   {
