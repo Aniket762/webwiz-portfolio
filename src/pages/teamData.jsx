@@ -96,6 +96,15 @@ const teamData = [
   },
 
   {
+    name: "Debashis Nayak",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629100867/webwiz-portfolio/team-images/team-webwiz/profilepic_-_Debashis_Nayak_yyngty.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/deb2000-sudo",
+    linkedin: "https://www.linkedin.com/in/debashis-nayak-6b013b198/",
+    instagram: "https://www.instagram.com/2000no_talent_guy/",
+  },
+
+  {
     name: "Divya Sri Darimisetti",
     image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923142/webwiz-portfolio/team-images/team-webwiz/IMG_20201212_220124_-_Divya_Sri_Darimisetti_bqee6w.jpg",
     tagline: "Technical Team",
@@ -111,6 +120,15 @@ const teamData = [
     github: "https://github.com/Nirmal-C",
     linkedin: "https://www.linkedin.com/in/nirmal-chathura/",
     instagram: "https://www.instagram.com/nirmal_cu/",
+  },
+
+  {
+    name: "Parwin Akhtari",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629100867/webwiz-portfolio/team-images/team-webwiz/IMG_20210616_204226_-_Parwin_Akhtari_u8l8gz.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/parwinakhtari",
+    linkedin: "https://www.linkedin.com/in/parwin-akhtari-9599981a9/",
+    instagram: "https://www.instagram.com/_.pari.19._/",
   },
 
   {
@@ -175,6 +193,16 @@ const teamData = [
     linkedin: "https://www.linkedin.com/in/akash-m-ab9210136/",
     instagram: "",
   },
+
+  {
+    name: "Akash Sahu",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629100868/webwiz-portfolio/team-images/team-webwiz/1626812445039_-_Akash_rnahpj.jpg",
+    tagline: "Technical Team",
+    github: "https://github.com/akashsahu006",
+    linkedin: "https://www.linkedin.com/in/akash-sahu-b73aa7207/",
+    instagram: "https://www.instagram.com/akash_sahu_7/",
+  },
+
 
   {
     name: "Amreet Kumar",
