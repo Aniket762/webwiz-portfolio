@@ -69,7 +69,7 @@ function events() {
           <Button>Let's checkout more events</Button>
         </BackGround>
             
-        </div>
+      </div>
     )
 }
 
