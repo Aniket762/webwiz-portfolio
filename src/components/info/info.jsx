@@ -30,12 +30,13 @@ function InfoSection({
   return (
     <>
       <InfoSec lightBg={lightBg}>
+      <Heading lightText={lightText}>{headline}</Heading>
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
+                
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
               </TextWrapper>
             </InfoColumn>
