@@ -1,6 +1,3 @@
-// const teamDataPostHolders =[
-
-// ];
 
 const teamData = [
   {
@@ -539,4 +536,4 @@ const teamData = [
 
 ];
 
-export default teamData   /* {teamDataPostHolders}; */
+export default teamData     /*{teamDataPostHolders}*/  ; 
