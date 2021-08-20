@@ -31,10 +31,10 @@ const SubHeading = styled.div`
 
 const Content = styled.p`
   font-family: "metropolis-regular", sans-serif;
-  font-size: 30px;
+  font-size: 29px;
   padding: 3rem 9rem 3rem 9rem;
   margin-top:-40px;
-  line-height: 1.7;
+  line-height: 1.5;
   margin-bottom: 3.6rem;
   color: rgba(85, 85, 85, 0.95);
   text-align: left;
@@ -56,16 +56,8 @@ function about() {
         <div>
         <SubHeading>#About Us</SubHeading>
         <Heading>Not just any other technical club</Heading>
-        <Content>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati ten.etur iure eius earum ut molestias architecto voluptate
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati ten.etur iure eius earum ut molestias architecto voluptate</Content>
+        <Content>Webwiz is committed to providing resources and content to the web development community. Our entire focus is on web development and design. #1 club in web development running under Student activity center (SAC) NIT Rourkela. Students from all undergraduate programs with interest in growing as a web developer are warmly welcome. We believe that web development is a -domain that can make a newbie crazy about software development. It doesn’t matter if you are a frontend, full-stack, or backend developer or never even touched a code editor in your life. Webwiz club hopes to provide you with knowledge, roadmaps, and guidance. Of course, our content will focus on and use examples from web-based languages such as Javascript and Python. We are big fans of the React and Node.js framework. Still, we believe you shouldn’t limit yourself in this continually evolving sector of technology. We hope you find something useful!
+        </Content>
       </div>
     )
 }
