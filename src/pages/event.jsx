@@ -1,5 +1,5 @@
 import React from 'react';
-import { right1,left1,right2,left2 ,right3,left3,right4} from './eventData';
+import { right1,left1,right2,left2 ,right3,left3,right4, right5, left4} from './eventData';
 import InfoSection from '../components/info/info';
 
 function event() {
@@ -12,6 +12,8 @@ function event() {
             <InfoSection {...right3} />
             <InfoSection {...left3} />
             <InfoSection {...right4} />
+            <InfoSection {...left4} />
+            <InfoSection {...right5} />
         </div>
     )
 }

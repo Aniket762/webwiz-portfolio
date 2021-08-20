@@ -33,7 +33,8 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  ${'' /* padding-bottom: 60px; */}
+  padding: auto;
 
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
@@ -89,9 +90,9 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 18px;
+  max-width: 500px;
+  margin: auto;
+  font-size: 20px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? /*'#a9b3c1'*/ '#898989' : '#1c2237')};
 `;
