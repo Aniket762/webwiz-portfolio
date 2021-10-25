@@ -39,7 +39,7 @@ function team()
       <Grid lg={12} item container spacing={3} align='center'>
         {teamData.founding.map(createCard, 4)}
       </Grid>
-      <h2>Team</h2>
+      <h2>Team Webwiz</h2>
       <Grid lg={12} item container spacing={3} align='center'>
         {teamData.team.map(createCard, 3)}
       </Grid>
