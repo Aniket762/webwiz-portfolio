@@ -1,3 +1,4 @@
+![hacktoberfest 2021 banner](https://user-images.githubusercontent.com/76111005/138584892-e13e3c51-4e81-4349-a4f2-7018f474a934.png)
 <h1 align='center'> Webwiz Portfolio 🐱‍👤 </h1>
 We at WebWiz, aspire to meet all your web development needs at your fingertips. We take pride in not just being able to deliver quality work before deadlines but also in going the extra mile for curating your personalized website wherever and whenever there is scope. We make sure that the best design and technical challenges are in tandem so that the website owns an exquisite front while being swift and intelligible simultaneously.
 
@@ -70,10 +71,10 @@ Please refer to the project's style and contribution guidelines for submitting p
 
 # Only for Webwiz team members 🐘
  1. Go to `/Webwiz-revamp/src/pages/teamData`
- 2. Feed your data 
+ 2. Feed your data to the relevant section
  3. Upload a favorite photo of yours in the `assets/data` folder in `Webwiz-revamp/src/assets/data`
  4. Sample data 
-```bash
+```jsx
   {
             "name":"Aniket Pal",
             "image":require('../assets/data/aniket.jpeg').default,

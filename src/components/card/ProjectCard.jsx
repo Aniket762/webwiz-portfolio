@@ -14,7 +14,7 @@ root: {
 const ProjectCard = () => {
     const classes = useStyles();
     return(
-        <Grid container spacing={4} className={classes.root}>
+        <Grid container spacing={0} className={classes.root}>
             <Grid item xs={12} sm={4}>
                 <Pcard className={classes.pcard}/>
             </Grid>
