@@ -71,10 +71,10 @@ Please refer to the project's style and contribution guidelines for submitting p
 
 # Only for Webwiz team members 🐘
  1. Go to `/Webwiz-revamp/src/pages/teamData`
- 2. Feed your data 
+ 2. Feed your data to the relevant section
  3. Upload a favorite photo of yours in the `assets/data` folder in `Webwiz-revamp/src/assets/data`
  4. Sample data 
-```bash
+```jsx
   {
             "name":"Aniket Pal",
             "image":require('../assets/data/aniket.jpeg').default,
