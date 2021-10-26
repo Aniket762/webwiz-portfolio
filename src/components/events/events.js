@@ -59,18 +59,24 @@ const BackGround = styled.div`
   height: 600px;
 `;
 
+const Link = styled.a`
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+`;
+
 function events() {
-    return (
-      <div>
-        <BackGround>
-          
-          <Heading>#Events</Heading>
-          <SubHeading>We do great events Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis </SubHeading>
-          <Button>Let's checkout more events</Button>
-        </BackGround>
-            
-      </div>
-    )
+  return (
+    <div>
+      <BackGround>
+
+        <Heading>#Events</Heading>
+        <SubHeading>We do great events Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis </SubHeading>
+        <Link href="/events"><Button>Let’s check out more events</Button></Link>
+      </BackGround>
+
+    </div >
+  )
 }
 
 export default events
