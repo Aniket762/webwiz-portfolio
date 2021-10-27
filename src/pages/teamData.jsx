@@ -58,6 +58,15 @@ const teamData = {
   ],
   founding: [
     {
+      name: "Aniket Pal",
+      image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628939607/webwiz-portfolio/team-images/team-webwiz/aniket%20pal.jpg",
+      tagline: "Founder",
+      github: "https://www.github.com/Aniket762",
+      linkedin: "https://www.linkedin.com/in/aniket-pal/",
+      instagram: "https://www.instagram.com/itzaniket_762",
+    },
+
+    {
       name: "Sumana Basu",
       image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628939609/webwiz-portfolio/team-images/team-webwiz/sumana%20basu.jpg",
       tagline: "Ex-Coordinator",
@@ -77,14 +86,6 @@ const teamData = {
 
   ],
   team: [
-    {
-      name: "Aniket Pal",
-      image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628939607/webwiz-portfolio/team-images/team-webwiz/aniket%20pal.jpg",
-      tagline: "Founder",
-      github: "https://www.github.com/Aniket762",
-      linkedin: "https://www.linkedin.com/in/aniket-pal/",
-      instagram: "https://www.instagram.com/itzaniket_762",
-    },
 
     {
       name: "Aman",
