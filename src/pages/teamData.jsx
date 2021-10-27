@@ -86,7 +86,6 @@ const teamData = {
 
   ],
   team: [
-
     {
       name: "Aman",
       image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628923004/webwiz-portfolio/team-images/team-webwiz/final_-_Aman_Bishnoi_vzhag8.png",
