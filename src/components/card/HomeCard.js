@@ -1,4 +1,4 @@
-import { Card, CardActions, CardContent, makeStyles, Typography } from '@material-ui/core'
+import { Card, CardContent, makeStyles, Typography } from '@material-ui/core'
 import React from 'react'
 import FLAG from '../../assets/images/Vector.png'
 import SESSION from '../../assets/images/Vector2.png'
