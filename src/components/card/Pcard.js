@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function Pcard() {
+export default function Pcard(props) {
   const classes = useStyles();
 
   return (
@@ -37,15 +37,15 @@ export default function Pcard() {
       <CardActionArea className={classes.cardactionarea}>
         <CardMedia
           className={classes.media}
-          image="https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png"
+          image={props.image}
           title="daffodil"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Daffodil
+            {props.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Daffodil Consists Most Of The Required Academic Materials, Curated Only For The Freshers Of NIT Rourkela.
+            {props.details}
           </Typography>
         </CardContent>
       </CardActionArea>
