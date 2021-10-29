@@ -18,17 +18,20 @@ const ProjectCard = () => {
         id: 1,
         title: "Daffodil",
         details: "Course material for 1st year engineering students in IIT/NITs.",
-        image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png"
+        image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png",
+        links: "https://webwiznitr.github.io/Project-daffodil/"
       },{
         id: 2,
         title: "Clubopedia",
         details: "Clubopedia ~ an encyclopedia of clubs of NITR.",
-        image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png"
+        image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png",
+        links: "https://clubopedia.netlify.app/"
       },{
         id: 3,
         title: "Webdev Roadmap",
         details: "Road-map to become Web Beast.",
-        image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png"
+        image: "https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png",
+        links: "https://webwiz.notion.site/webwiz/Road-map-to-became-Web-Beast-Webwiz-7b0334c890c7482a9738687b757a92da"
       }];
 
     return(
@@ -36,7 +39,7 @@ const ProjectCard = () => {
             {cardDetails.map(item => (
                 <Grid item xs={12} sm={4}>
                 
-                    <Pcard key={item.id} image={item.image} details={item.details} title={item.title} className={classes.pcard}/>
+                    <Pcard key={item.id} image={item.image} details={item.details} title={item.title} links={item.links} className={classes.pcard}/>
                 </Grid>
             ))}
         </Grid>
