@@ -35,7 +35,7 @@ const LoginButton = styled.button`
 export function Accessibility(props) {
   return (
     <AccessibilityContainer>
-      <a href ="https://ounr3lc6g11.typeform.com/to/n0ZF5H0a"><LoginButton>Join Us</LoginButton></a>
+      <a href ="https://x8w3um95iuy.typeform.com/to/ySi2YwpF"><LoginButton>Join Us</LoginButton></a>
     </AccessibilityContainer>
   );
 }
