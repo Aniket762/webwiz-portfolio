@@ -5,8 +5,37 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
+// import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import styled from "styled-components";
+
+const Link = styled.a`
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+`;
+
+const Button = styled.button`
+  border: 0;
+  outline: 0;
+  padding: 8px 1em;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: #490055;
+  border: 2px solid #490055;
+  transition: all 240ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+    
+  }
+
+  &:not(:last-of-type) {
+    margin-right: 7px;
+  }
+`;
 
 const useStyles = makeStyles({
   root: {
@@ -19,9 +48,8 @@ const useStyles = makeStyles({
     height: 240,
   },
 
-  btn:{
-      backgroundColor: "#F6F6F6",
-      margin: "auto",
+  btnaction:{
+    justifyContent: "center"
   },
 
   cardactionarea: {
@@ -29,7 +57,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function Pcard() {
+export default function Pcard(props) {
   const classes = useStyles();
 
   return (
@@ -37,22 +65,24 @@ export default function Pcard() {
       <CardActionArea className={classes.cardactionarea}>
         <CardMedia
           className={classes.media}
-          image="https://res.cloudinary.com/webwiznitr/image/upload/v1629310954/webwiz-portfolio/others/events_wid9o0.png"
+          image={props.image}
           title="daffodil"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Daffodil
+            {props.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Daffodil Consists Most Of The Required Academic Materials, Curated Only For The Freshers Of NIT Rourkela.
+            {props.details}
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" className={classes.btn}>
-          Learn More
-        </Button>
+      <CardActions className={classes.btnaction}>
+        <Link href={props.links}>
+          <Button>
+            Visit 
+          </Button>
+        </Link>
       </CardActions>
     </Card>
 
