@@ -12,10 +12,10 @@ function home()
     <div className="App">
       <Hero />
       <About />
-      <Event />
+      {/* <Event /> */}
       <Events1/>
       <Project/>
-      <Team />
+      {/* <Team /> */}
     </div>
   );
 }
