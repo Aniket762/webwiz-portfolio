@@ -38,7 +38,8 @@ const useStyles = makeStyles({
     card: {
         width: "90%",
         height: "100%",
-        backgroundColor: "#fff",
+        // backgroundColor: "#FFF",
+        background: "#F6F6F6",
         alignSelf: "center",
         borderRadius: "10px",
         margin: "3rem 5rem 3rem 5rem",
