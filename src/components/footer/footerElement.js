@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 
 export const FooterContainer = styled.footer`
-  background-color: #2B0032;
+  ${'' /* background-color: #2B0032; */}
+  background-color: #F6F6F6;
 `;
 
 // export const FooterContainer = styled.footer.create(
@@ -39,7 +40,8 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const WebsiteRights = styled.p`
-  color: #fff;
+  ${'' /* color: #fff; */}
+  color: #2B0032;
 
   margin-bottom: 16px;
 `;
@@ -52,6 +54,7 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+  ${'' /* color: #fff; */}
+  color: #2B0032;
   font-size: 24px;
 `;
