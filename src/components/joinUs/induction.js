@@ -1,13 +1,78 @@
 import React from "react";
 // import reactDom from "react-dom";
-import styled from "styled-components";
+// import styled from "styled-components";
 import { makeStyles } from "@material-ui/core/styles";
 import { Heading } from "../info/info.elements";
 import inductionData from "./inductionData";
 // import { getThemeProps } from "@material-ui/styles";
 
 
-const useStyles = makeStyles({})
+const useStyles = makeStyles({
+    induction:{
+        width: "100%",
+        // height: "120rem",
+        padding: "1rem",
+        overflow: "hidden",
+        backgroundColor: "#2B0032",
+    },
+
+    heading:{
+        fontSize: "60px",
+        fontFamily: "poppins",
+        color: "white",
+    },
+
+    inductioncards:{
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        
+    },
+
+    inductioncard:{
+        width: "80%",
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "white",
+
+        "&:nth-child(2)": {
+            display: "flex",
+            flexDirection: "row-reverse",
+            // backgroundColor: "white"
+        },
+    },
+
+    inductioncardleft:{
+        width: "50vw",
+        height: "400",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "2rem",
+    },
+
+    inductioncardright:{
+        width: "50vw",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
+    },
+
+    imageinduction:{
+        width: "40rem",
+        height: "25rem"
+    },
+
+    // pinductioncards:nth-child(2){
+    //     display: "flex",
+    // }
+})
 
 const InductionCard = (props) =>{
 
@@ -21,7 +86,7 @@ const InductionCard = (props) =>{
         </div>
         <div className={classes.inductioncardright}>
             {/* <image>{props.image}</image> */}
-            <img src={props.image} alt=""/>
+            <img className={classes.imageinduction} src={props.image} alt=""/>
         </div>
     </div>
     )
