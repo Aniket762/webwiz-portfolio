@@ -17,9 +17,12 @@ const InductionCard = (props) =>{
     <div className={classes.inductioncard}>
         <div className={classes.inductioncardleft}>
             <Heading>{props.heading}</Heading>
-            <Heading>{props.subheading}</Heading>
+            <text>{props.subheading}</text>
         </div>
-        <div className={classes.inductioncardright}></div>
+        <div className={classes.inductioncardright}>
+            {/* <image>{props.image}</image> */}
+            <img src={props.image} alt=""/>
+        </div>
     </div>
     )
 }
@@ -30,12 +33,14 @@ function Induction () {
     return(
         <>
          <div className={classes.induction}>
+         <div className={classes.heading}>Join Us</div>
             <div className={classes.inductioncards}>
                 {inductionData.map(function ncards(val){
                     return(
                         <InductionCard 
                             heading={val.heading}
                             subheading={val.subheading}
+                            image={val.image}
                         />
                     )
                 })}
