@@ -4,12 +4,16 @@ import Pcard from './Pcard';
 
 const useStyles = makeStyles({
 root: {
-    paddingLeft: "5rem",
-    paddingRight: "5rem",
+    padding: "3rem",
 },
 
 pcard: {
     color: "#000"
+},
+
+heading:{
+    fontSize: "60px",
+    fontWeight: "medium
 }
 
 
@@ -39,6 +43,8 @@ const ProjectCard = () => {
       }];
 
     return(
+        <>
+        <div className={classes.heading}>Projects</div>
         <Grid container spacing={0} className={classes.root}>
             {cardDetails.map(item => (
                 <Grid item xs={12} sm={4}>
@@ -47,6 +53,7 @@ const ProjectCard = () => {
                 </Grid>
             ))}
         </Grid>
+        </>
     )
 }
 
