@@ -1,7 +1,7 @@
 import { Card, CardContent, makeStyles, Typography } from '@material-ui/core'
 import React from 'react'
 import FLAG from '../../assets/images/Vector.png'
-import SESSION from '../../assets/images/Vector2.png'
+import SESSION from '../../assets/images/Vector5.png'
 import WORKSHOP from '../../assets/images/Vector3.png'
 import styled from "styled-components";
 
@@ -9,17 +9,17 @@ const Button = styled.button`
   border: 0;
   outline: 0;
   padding: 8px 1em;
-  color: #fff;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
   border-radius: 20px;
-  background-color: #490055;
+  background-color: #fff;
   border: 2px solid #490055;
   transition: all 240ms ease-in-out;
   cursor: pointer;
 
   &:hover {
-    color: #fff;
+    color: #000;
     
   }
 
@@ -38,7 +38,8 @@ const useStyles = makeStyles({
     card: {
         width: "90%",
         height: "100%",
-        backgroundColor: "#fff",
+        // backgroundColor: "#FFF",
+        background: "#2B0032",
         alignSelf: "center",
         borderRadius: "10px",
         margin: "3rem 5rem 3rem 5rem",
@@ -47,7 +48,7 @@ const useStyles = makeStyles({
 
     heading: {
         fontSize: "32px",
-        color: "black",
+        color: "#f6f6f6",
         fontWeight: "600",
         textAlign: 'left'
     },
@@ -75,16 +76,16 @@ const HomeCard = () => {
     return (
         <Card className={classes.card} gutterBottom >
             <div className={classes.header}>
-                <Typography style={{ borderRight: "4px solid #000", flex: 1, padding: 30 }} className={classes.heading} >
+                <Typography style={{ borderRight: "4px solid #fff", flex: 1, padding: 30 }} className={classes.heading} >
                     <span style={{
-                        color: "#51006D"
+                        color: "#f6f6f6"
                     }}>Webwiz</span> brings you some<br />
                     Amazing Events
                 </Typography>
                 <div style={{ padding: 30, flex: 1, display: "flex", justifyContent: "space-between" }}>
                     <div style={{ textAlign: 'center' }}>
                         <Typography style={{
-                            color: "#51006D",
+                            color: "#f6f6f6",
                             textAlign: 'center'
                         }} className={classes.heading} >
                             1
@@ -95,7 +96,7 @@ const HomeCard = () => {
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <Typography style={{
-                            color: "#51006D",
+                            color: "#f6f6f6",
                             textAlign: 'center'
                         }} className={classes.heading} >
                             3
@@ -107,7 +108,7 @@ const HomeCard = () => {
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <Typography style={{
-                            color: "#51006D",
+                            color: "#f6f6f6",
                             textAlign: 'center'
                         }} className={classes.heading} >
                             50+
