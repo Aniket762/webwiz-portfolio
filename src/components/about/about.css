@@ -26,7 +26,7 @@
   height: 20rem;
   padding: 0rem 4rem;
   margin: 5px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(105, 1, 114, 0.2) 0px 2px 8px 0px;
   color: white;
   backdrop-filter: blur(5px);
 }
@@ -34,9 +34,9 @@
 #about .liteCard:hover {
   cursor: pointer;
   transition: 0.5s;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(92, 1, 119, 0.25) 0px 54px 55px,
+    rgba(77, 2, 83, 0.12) 0px -12px 30px, rgba(94, 1, 94, 0.12) 0px 4px 6px,
+    rgba(72, 1, 78, 0.17) 0px 12px 13px, rgba(77, 1, 66, 0.09) 0px -3px 5px;
 }
 
 @media screen and (max-width: 600px) {
