@@ -13,7 +13,7 @@ pcard: {
 
 heading:{
     fontSize: "60px",
-    fontWeight: "medium"
+    fontWeight: "medium
 }
 
 
