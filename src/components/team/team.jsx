@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@material-ui/core';
 import {
   InfoSec,
   InfoRow,
@@ -24,7 +25,9 @@ function team() {
                 {/* <TopLine lightTopLine="true">#Team</TopLine> */}
                 <Heading lightText="true">Let's meet the wonderful Webwiz Team </Heading>
                 <Subtitle lightTextDesc="true">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consec </Subtitle>
-                <Button > Let's meet all</Button>
+                <Link href='/team'>
+                  <Button > Let's meet all</Button>
+                </Link>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
