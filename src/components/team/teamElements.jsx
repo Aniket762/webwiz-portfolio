@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 50px 0;
+  padding: 30px 0;
   background: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
 `;
 
@@ -30,9 +30,10 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
+  padding-left: 0px;
 
   @media screen and (max-width: 768px) {
-    margin-top: 70px;
+    margin-top: 20px;
     padding-bottom: 65px;
   }
 `;

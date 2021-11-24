@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from '@material-ui/core';
 import {
   InfoSec,
   InfoRow,
   InfoColumn,
   TextWrapper,
-  TopLine,
+  // TopLine,
   Heading,
   Subtitle,
   ImgWrapper,
@@ -21,15 +22,17 @@ function team() {
           <InfoRow imgStart="true">
             <InfoColumn>
               <TextWrapper>
-                <TopLine lightTopLine="true">#Team</TopLine>
-                <Heading lightText="true">Lorem ipsum dolor sit amet consectetur </Heading>
+                {/* <TopLine lightTopLine="true">#Team</TopLine> */}
+                <Heading lightText="true">Let's meet the wonderful Webwiz Team </Heading>
                 <Subtitle lightTextDesc="true">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consec </Subtitle>
-                <Button > Let's meet all</Button>
+                <Link href='/team'>
+                  <Button > Let's meet all</Button>
+                </Link>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start="true">
-                <Img src="https://github.com/Aniket762/Webwiz-revamp/blob/main/src/assets/images/team-webwiz.png?raw=true" alt="team" />
+                <Img src="https://res.cloudinary.com/webwiznitr/image/upload/v1637761727/webwiz-portfolio/team-images/team-webwiz/WEBWIZ_TEAM_zu2vyj.png" alt="team" />
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>
