@@ -4,7 +4,7 @@ import {
   InfoRow,
   InfoColumn,
   TextWrapper,
-  TopLine,
+  // TopLine,
   Heading,
   Subtitle,
   ImgWrapper,

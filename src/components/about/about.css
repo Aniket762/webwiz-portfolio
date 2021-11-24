@@ -24,11 +24,13 @@
 #about .liteCard {
   width: 30rem;
   height: 20rem;
+  border-radius: 10px;
   padding: 0rem 4rem;
   margin: 5px;
   box-shadow: rgba(105, 1, 114, 0.2) 0px 2px 8px 0px;
   color: white;
   backdrop-filter: blur(5px);
+  border: 0.1px solid #2b3002;
 }
 
 #about .liteCard:hover {
