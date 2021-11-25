@@ -1,4 +1,23 @@
-export const right1 = {
+export const right7 = {
+  primary: true,
+  lightBg: true,
+  lightTopLine: true,
+  lightText: false,
+  lightTextDesc: true,
+  headline: 'Hands-on webinar on Authentication',
+  description:
+    ` A good website is an accessible website. Who wouldn't want to use websites that not only serve the purpose but also give you a secured and protected experience?
+  
+    Webwiz, in collaboration with Sawo Labs, presents a Hands-On Webinar on Authentication using Sawo Labs. To be conducted by Mr. Abhishek Chandrasenan who's a Full Stack Developer at Sawo Labs, it's going to be nothing but FUN! 
+    `,
+  buttonLabel: 'Shoot',
+  imgStart: '',
+  img: 'https://res.cloudinary.com/webwiznitr/image/upload/v1637769176/webwiz-portfolio/events%20page/webwiz_sawo_labs_ipsjo2.png',
+  alt: 'postman api',
+  start: ''
+};
+
+export const left6 = {
     primary: true,
     lightBg: true,
     lightTopLine: true,
@@ -9,15 +28,69 @@ export const right1 = {
       ` Hackodisha is brought to you by Webwiz on the occasion of the Diamond Jubilee celebration of NIT Rourkela. It is a community based virtual hackathon that is not limited only to Odisha but is meant for the students and coding enthusiasts all around the country. Scheduled on 18-19th September, Hackodisha is a 36 hour event where participants can showcase their unique ideas and expand their boundaries with sparkles of creativity. Being Webwiz's flagship event, Hackodisha focuses on promoting innovation and bringing participants together irrespective of their skills. Along with the promise of goodies, certificates, and exciting prizes to the winners, it also guarantees guidance from experienced mentors and a lifetime worth of experience. 
       `,
     buttonLabel: 'Shoot',
-    imgStart: '',
+    imgStart: 'start',
     img: 'https://res.cloudinary.com/webwiznitr/image/upload/v1629453004/webwiz-portfolio/events%20page/P01_Hackodisha_announcement_gbmuda.png',
     alt: 'postman api',
     start: ''
 };
+
+export const right6 = {
+  primary: true,
+  lightBg: true,
+  lightTopLine: true,
+  lightText: false,
+  lightTextDesc: true,
+  headline: 'Auto-Potency.',
+  description:
+    ` The revolution of industry brought a drastic change in people's living standard and culture. The increase in number of jobs from various sectors, increase in production activities helped people grow to an ever increasing level that it seems A.I. is going to take over our work force. This 21st century has given the people the needs to fulfill anything they can dream of. Starting from a small needle to huge machines. The obsession with productivity has run our lives. Collective work has always been a wise principle to improve our productivity in this modern era of machines.
+    `,
+  buttonLabel: 'Shoot',
+  imgStart: '',
+  img: 'https://res.cloudinary.com/webwiznitr/image/upload/v1637768931/webwiz-portfolio/events%20page/P64_01_Hackodisha_Cyborg_AutoPotency_ned159.png',
+  alt: 'postman api',
+  start: ''
+};
+
+
+export const left5 = {
+  primary: true,
+  lightBg: true,
+  lightTopLine: true,
+  lightText: false,
+  lightTextDesc: true,
+  headline: 'Crypt-o-quest.',
+  description:
+    `Cryptocurrency trading or crypto trading involves buying and selling cryptocurrencies to earn profit. We speculate mainly on the price movement of cryptocurrency. As of recently, this field is pretty hyped up, and people are driven towards it.
+    When we talk about the competition, the RSTO game token comes into account. It is the driving force of the competitions. Top rankers will get the reward in terms of RSTO, while low rankers will face some loss. Thus it builds up a reward system where you play more to earn more.
+    `,
+  buttonLabel: 'Find Speed',
+  imgStart: 'start',
+  img: 'https://res.cloudinary.com/webwiznitr/image/upload/v1637768933/webwiz-portfolio/events%20page/P68_01_Crypt-o-quest_Hackodisha_Finance_Club_vwcmog.png',
+  alt: 'Vault',
+  start: 'true'
+};
+
+
+export const right5 = {
+  primary: true,
+  lightBg: true,
+  lightTopLine: true,
+  lightText: false,
+  lightTextDesc: true,
+  headline: 'Replica.',
+  description:
+    ` Aliens are trying to communicate with us by sending signals. You have been given waveforms, and you have to decode what circuitry the aliens might be using. Your task is to replicate those waveforms as closely as possible by simulating your circuit before they attack us.
+    `,
+  buttonLabel: 'Shoot',
+  imgStart: '',
+  img: 'https://res.cloudinary.com/webwiznitr/image/upload/v1637768934/webwiz-portfolio/events%20page/P62_01_Replica_Hackodisha_Cyborg_Event_1_bj7dws.png',
+  alt: 'postman api',
+  start: ''
+};
   
  
  
-export const left1 = {
+export const left4 = {
     primary: true,
     lightBg: true,
     lightTopLine: true,
@@ -36,7 +109,7 @@ export const left1 = {
 };
 
 
-export const right2 = {
+export const right4 = {
     primary: true,
     lightBg: true,
     lightTopLine: true,
@@ -53,7 +126,7 @@ export const right2 = {
 };
 
 
-export const left2 = {
+export const left3 = {
     primary: true,
     lightBg: true,
     lightTopLine: true,
@@ -89,7 +162,7 @@ export const right3 = {
 };
 
 
-export const left3 = {
+export const left2 = {
     primary: true,
     lightBg: true,
     lightTopLine: true,
@@ -106,7 +179,7 @@ export const left3 = {
     start: 'true'
 };
 
-export const right4 = {
+export const right2 = {
     primary: true,
     lightBg: true,
     lightTopLine: true,
@@ -121,7 +194,7 @@ export const right4 = {
     start: ''
 };
 
-export const left4 = {
+export const left1 = {
   primary: true,
   lightBg: true,
   lightTopLine: true,
@@ -136,7 +209,7 @@ export const left4 = {
   start: 'true'
 };
 
-export const right5 = {
+export const right1 = {
   primary: true,
   lightBg: true,
   lightTopLine: true,

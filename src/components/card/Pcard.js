@@ -42,7 +42,7 @@ const useStyles = makeStyles({
     maxWidth: 345,
     margin: "auto",
     overflow: "hidden",
-    
+    marginBottom: "2rem",
   },
   media: {
     height: 240,
