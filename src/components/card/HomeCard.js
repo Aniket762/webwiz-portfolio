@@ -43,8 +43,9 @@ const useStyles = makeStyles({
         alignSelf: "center",
         borderRadius: "10px",
         margin: "3rem 5rem 3rem 5rem",
-        padding: 20
+        padding: 20,
     },
+
 
     heading: {
         fontSize: "32px",
@@ -66,7 +67,45 @@ const useStyles = makeStyles({
         justifyContent: 'space-between',
         marginTop: 50,
         marginBottom: 50,
-        flexWrap: 'wrap'
+        flexWrap: 'wrap',
+
+
+    },
+    innerCardRight: {
+        width: "350px",
+        textAlign: 'left',
+        backgroundColor: "#E0F0FF",
+        padding: 25,
+        borderRadius: 25,
+
+        '&:hover': {
+            opacity: 0.8,
+            cursor: 'pointer'
+        },
+    },
+    innerCardCenter: {
+        width: "350px",
+        textAlign: 'left',
+        backgroundColor: "#FFE8CD",
+        padding: 25,
+        borderRadius: 25,
+
+        '&:hover': {
+            opacity: 0.8,
+            cursor: 'pointer'
+        },
+    },
+    innerCardLeft: {
+        width: "350px",
+        textAlign: 'left',
+        backgroundColor: "#C7EFEE",
+        padding: 25,
+        borderRadius: 25,
+
+        '&:hover': {
+            opacity: 0.8,
+            cursor: 'pointer'
+        },
     }
 })
 
@@ -74,7 +113,7 @@ const HomeCard = () => {
 
     const classes = useStyles();
     return (
-        <Card className={classes.card} gutterBottom >
+        <Card className={classes.card} gutterBottom>
             <div className={classes.header}>
                 <Typography style={{ borderRight: "4px solid #fff", flex: 1, padding: 30 }} className={classes.heading} >
                     <span style={{
@@ -122,21 +161,21 @@ const HomeCard = () => {
             </div>
 
             <CardContent className={classes.textContainer}>
-                <div style={{ width: "350px", textAlign: 'left', backgroundColor: "#C7EFEE", padding: 25, borderRadius: 25 }}>
+                <div className={classes.innerCardLeft}>
                     <img src={FLAG} alt="" />
                     <h4 style={{ margin: 0 }}>Flagship Event</h4>
                     <p>
                         Hackodisha was one of the recent flagship event of Webwiz.
                     </p>
                 </div>
-                <div style={{ width: "350px", textAlign: 'left', backgroundColor: "#FFE8CD", padding: 25, borderRadius: 25 }}>
+                <div className={classes.innerCardCenter}>
                     <img src={SESSION} alt="" />
                     <h4 style={{ margin: 0 }}>Sessions</h4>
                     <p>
                         We have various sessions on different domains.
                     </p>
                 </div>
-                <div style={{ width: "350px", textAlign: 'left', backgroundColor: "#E0F0FF", padding: 25, borderRadius: 25 }}>
+                <div className={classes.innerCardRight}>
                     <img src={WORKSHOP} alt="" />
                     <h4 style={{ margin: 0 }}>Workshop</h4>
                     <p>
