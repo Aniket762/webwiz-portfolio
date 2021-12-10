@@ -2,9 +2,13 @@
   margin-top: 3rem;
 }
 
+#about h1 {
+  margin-bottom: 3rem;
+}
+
 #about h3 {
   margin-top: 2rem;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 #about .underline {
@@ -16,17 +20,20 @@
 
 #about #cards {
   display: flex;
-  justify-content: center;
+  justify-content: stretch;
   flex-wrap: wrap;
-  margin: 5rem 0;
+  margin: 5rem 5vw;
+  align-items: stretch;
 }
 
 #about .liteCard {
-  width: 30rem;
-  height: 20rem;
+  width: calc(30vw - 60px);
+  min-width: 350px;
+  flex-grow: 1;
+  height: inherit;
   border-radius: 10px;
-  padding: 0rem 4rem;
-  margin: 5px;
+  padding: 0rem calc(min(3rem, 3vw)) calc(min(1.5rem, 2vw)) calc(min(3rem, 3vw));
+  margin: 10px;
   box-shadow: rgba(105, 1, 114, 0.2) 0px 2px 8px 0px;
   color: white;
   backdrop-filter: blur(5px);
@@ -34,7 +41,6 @@
 }
 
 #about .liteCard:hover {
-  cursor: pointer;
   transition: 0.5s;
   box-shadow: rgba(92, 1, 119, 0.25) 0px 54px 55px,
     rgba(77, 2, 83, 0.12) 0px -12px 30px, rgba(94, 1, 94, 0.12) 0px 4px 6px,
@@ -44,5 +50,24 @@
 @media screen and (max-width: 600px) {
   #about h1 {
     font-size: 40px;
+    margin-bottom: 1rem;
   }
+
+  #about h3 {
+    margin-top: 1.5rem;
+    margin-bottom: -0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 999px) {
+    #about #cards {
+        margin: 5vw;
+    }
+
+    #about .liteCard {
+      width: 90vw;
+      min-width: 260px;
+      padding: 0rem calc(min(2rem, 5vw));
+    }
 }
