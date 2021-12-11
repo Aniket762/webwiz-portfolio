@@ -43,6 +43,10 @@ const useStyles = makeStyles({
     margin: "auto",
     overflow: "hidden",
     marginBottom: "2rem",
+
+    '&:hover': {
+      boxShadow: '0px 2px 20px 1px rgba(0,0,0,0.75)'
+   },
   },
   media: {
     height: 240,
