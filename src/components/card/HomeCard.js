@@ -35,6 +35,13 @@ const Link = styled.a`
 `;
 
 const useStyles = makeStyles({
+
+    eventssection:{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
     card: {
         width: "90%",
         height: "100%",
@@ -46,12 +53,34 @@ const useStyles = makeStyles({
         padding: 20,
     },
 
+    headingmain: {
+        fontSize: "32px",
+        color: "#f6f6f6",
+        fontWeight: "600",
+        textAlign: 'left',
+
+        borderRight: "4px solid #fff", 
+        flex: 1, 
+        padding: 30,
+
+        "@media (max-width: 1100px)": {
+            borderRight: "none", 
+            borderBottom: "4px solid #fff",
+        }
+    },
+
+    headingbox:{
+        padding: 30,
+         flex: 1,
+          display: "flex",
+           justifyContent: "space-between",
+    },
 
     heading: {
         fontSize: "32px",
         color: "#f6f6f6",
         fontWeight: "600",
-        textAlign: 'left'
+        textAlign: 'left',
     },
 
     img: {
@@ -60,7 +89,11 @@ const useStyles = makeStyles({
     },
     header: {
         display: "flex",
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+
+        "@media (max-width: 1100px)": {
+            flexDirection: 'column',
+        }
     },
     textContainer: {
         display: "flex",
@@ -113,15 +146,21 @@ const HomeCard = () => {
 
     const classes = useStyles();
     return (
+        <div className={classes.eventssection}>
         <Card className={classes.card} gutterBottom>
             <div className={classes.header}>
-                <Typography style={{ borderRight: "4px solid #fff", flex: 1, padding: 30 }} className={classes.heading} >
+                <Typography
+                //  style={{ borderRight: "4px solid #fff", flex: 1, padding: 30 }} 
+                 className={classes.headingmain} >
                     <span style={{
                         color: "#f6f6f6"
                     }}>Webwiz</span> brings you some<br />
                     Amazing Events
                 </Typography>
-                <div style={{ padding: 30, flex: 1, display: "flex", justifyContent: "space-between" }}>
+                <div 
+                // style={{ padding: 30, flex: 1, display: "flex", justifyContent: "space-between" }}
+                className={classes.headingbox}
+                >
                     <div style={{ textAlign: 'center' }}>
                         <Typography style={{
                             color: "#f6f6f6",
@@ -189,6 +228,7 @@ const HomeCard = () => {
 
 
         </Card>
+        </div>
     )
 }
 
