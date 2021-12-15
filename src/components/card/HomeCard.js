@@ -19,7 +19,8 @@ const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    color: #000;
+    color: #FFF;
+    background-color: #490055;
     
   }
 
@@ -35,6 +36,13 @@ const Link = styled.a`
 `;
 
 const useStyles = makeStyles({
+
+    eventssection:{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+
     card: {
         width: "90%",
         height: "100%",
@@ -44,14 +52,71 @@ const useStyles = makeStyles({
         borderRadius: "10px",
         margin: "3rem 5rem 3rem 5rem",
         padding: 20,
+        
+        "@media (max-width: 1100px)": {
+            margin: "3rem 1rem 3rem 1rem",
+        }
     },
 
+    headingmain: {
+        fontSize: "32px",
+        color: "#f6f6f6",
+        fontWeight: "600",
+        textAlign: 'left',
+
+        borderRight: "4px solid #fff", 
+        flex: 1, 
+        padding: 30,
+
+        "@media (max-width: 1100px)": {
+            borderRight: "none", 
+            borderBottom: "4px solid #fff",
+            padding: 15,
+            fontSize: "28px",
+        },
+
+    },
+
+    headingbox:{
+        padding: 30,
+        flex: 1,
+        display: "flex",
+        justifyContent: "space-between",
+
+        "@media (max-width: 1100px)": {
+            padding: 15,
+        }
+
+    },
 
     heading: {
         fontSize: "32px",
         color: "#f6f6f6",
         fontWeight: "600",
-        textAlign: 'left'
+        textAlign: 'left',
+
+        "@media (max-width: 1100px)": {
+            fontSize: "24px",
+        },
+
+        "@media (max-width: 700px)": {
+            fontSize: "17px",
+        }
+    },
+
+    subheading: {
+        fontSize: "20px",
+        color: "#f6f6f6",
+        fontWeight: "600",
+        textAlign: 'left',
+
+        "@media (max-width: 1100px)": {
+            fontSize: "18px",
+        },
+
+        "@media (max-width: 700px)": {
+            fontSize: "17px",
+        }
     },
 
     img: {
@@ -60,28 +125,44 @@ const useStyles = makeStyles({
     },
     header: {
         display: "flex",
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+
+        "@media (max-width: 1100px)": {
+            flexDirection: 'column',
+        }
     },
+
     textContainer: {
         display: "flex",
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
         marginTop: 50,
         marginBottom: 50,
         flexWrap: 'wrap',
 
-
+        "@media (max-width: 1100px)": {
+            marginTop: 25,
+            marginBottom: 25,
+            padding: 0,
+        }
     },
+
     innerCardRight: {
         width: "350px",
         textAlign: 'left',
         backgroundColor: "#E0F0FF",
         padding: 25,
         borderRadius: 25,
+        // margin: 20,
 
         '&:hover': {
             opacity: 0.8,
             cursor: 'pointer'
         },
+
+        "@media (max-width: 1100px)": {
+            marginTop: 25,
+            marginBottom: 25,
+        }
     },
     innerCardCenter: {
         width: "350px",
@@ -94,6 +175,11 @@ const useStyles = makeStyles({
             opacity: 0.8,
             cursor: 'pointer'
         },
+
+        "@media (max-width: 1100px)": {
+            marginTop: 25,
+            marginBottom: 25,
+        }
     },
     innerCardLeft: {
         width: "350px",
@@ -106,6 +192,11 @@ const useStyles = makeStyles({
             opacity: 0.8,
             cursor: 'pointer'
         },
+
+        "@media (max-width: 1100px)": {
+            marginTop: 25,
+            marginBottom: 25,
+        }
     }
 })
 
@@ -113,15 +204,18 @@ const HomeCard = () => {
 
     const classes = useStyles();
     return (
+        <div className={classes.eventssection}>
         <Card className={classes.card} gutterBottom>
             <div className={classes.header}>
-                <Typography style={{ borderRight: "4px solid #fff", flex: 1, padding: 30 }} className={classes.heading} >
+
+                <Typography className={classes.headingmain} >
                     <span style={{
                         color: "#f6f6f6"
                     }}>Webwiz</span> brings you some<br />
                     Amazing Events
                 </Typography>
-                <div style={{ padding: 30, flex: 1, display: "flex", justifyContent: "space-between" }}>
+
+                <div className={classes.headingbox}>
                     <div style={{ textAlign: 'center' }}>
                         <Typography style={{
                             color: "#f6f6f6",
@@ -129,7 +223,7 @@ const HomeCard = () => {
                         }} className={classes.heading} >
                             1
                         </Typography>
-                        <Typography className={classes.heading} >
+                        <Typography className={classes.subheading} >
                             Year
                         </Typography>
                     </div>
@@ -138,9 +232,9 @@ const HomeCard = () => {
                             color: "#f6f6f6",
                             textAlign: 'center'
                         }} className={classes.heading} >
-                            3
+                            2
                         </Typography>
-                        <Typography style={{ textAlign: 'center' }} className={classes.heading} >
+                        <Typography style={{ textAlign: 'center' }} className={classes.subheading} >
                             Flagship
                             <br /> Events
                         </Typography>
@@ -152,7 +246,7 @@ const HomeCard = () => {
                         }} className={classes.heading} >
                             50+
                         </Typography>
-                        <Typography style={{ textAlign: 'center' }} className={classes.heading} >
+                        <Typography style={{ textAlign: 'center' }} className={classes.subheading} >
                             Workshop &
                             <br /> Sessions
                         </Typography>
@@ -161,13 +255,16 @@ const HomeCard = () => {
             </div>
 
             <CardContent className={classes.textContainer}>
-                <div className={classes.innerCardLeft}>
-                    <img src={FLAG} alt="" />
-                    <h4 style={{ margin: 0 }}>Flagship Event</h4>
-                    <p>
+                {/* <Link href='http://hackodisha.xyz/'> */}
+                    <div className={classes.innerCardLeft}>
+                        <img src={FLAG} alt="" />
+                        <h4 style={{ margin: 0 }}>Flagship Event</h4>
+                        <p>
                         Hackodisha was one of the recent flagship event of Webwiz.
-                    </p>
-                </div>
+                        </p>
+                    </div>
+                {/* </Link> */}
+
                 <div className={classes.innerCardCenter}>
                     <img src={SESSION} alt="" />
                     <h4 style={{ margin: 0 }}>Sessions</h4>
@@ -184,11 +281,13 @@ const HomeCard = () => {
                 </div>
             </CardContent>
             <Link href="/events">
-                <Button>Let’s check out more events</Button>
+                <Button>
+                {/* Let’s check out  */}
+                More events</Button>
             </Link>
 
-
         </Card>
+        </div>
     )
 }
 
