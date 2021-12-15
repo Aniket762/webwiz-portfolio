@@ -45,7 +45,7 @@ const useStyles = makeStyles({
     marginBottom: "2rem",
 
     '&:hover': {
-      boxShadow: '0px 2px 20px 1px rgba(0,0,0,0.75)'
+      boxShadow: '0px 2px 20px 1px rgba(105, 1, 114, 0.7)'
    },
   },
   media: {

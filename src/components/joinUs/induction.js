@@ -14,6 +14,10 @@ const useStyles = makeStyles({
         padding: "1rem",
         overflow: "hidden",
         backgroundColor: "#2B0032",
+
+        "@media (max-width: 950px)": {
+            
+        }
     },
 
     heading:{
@@ -43,30 +47,57 @@ const useStyles = makeStyles({
             display: "flex",
             flexDirection: "row-reverse",
             // backgroundColor: "white"
+
+            "@media (max-width: 950px)": {
+                flexDirection: "column",
+            }
         },
+
+        "@media (max-width: 950px)": {
+            flexDirection: "column",
+            width: "90%",
+            // height: "100%",
+        }
     },
 
     inductioncardleft:{
-        width: "50vw",
-        height: "400",
+        width: "50%",
+        // height: "400",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
         padding: "2rem",
+
+        "@media (max-width: 950px)": {
+            width: "100%", 
+            // height: "50%",
+            padding: "1rem",
+        }
     },
 
     inductioncardright:{
-        width: "50vw",
+        width: "50%",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        overflow: "hidden",
+
+        "@media (max-width: 950px)": {
+            width: "100%", 
+            // height: "50%",
+        }
     },
 
     imageinduction:{
         width: "40rem",
-        height: "25rem"
+        height: "25rem",
+
+        "@media (max-width: 950px)": {
+            width: "22rem", 
+            height: "13rem",
+        }
     },
 
     // pinductioncards:nth-child(2){
