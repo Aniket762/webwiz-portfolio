@@ -9,12 +9,13 @@ import ProjectCard from '../card/ProjectCard';
 // background-color: red;
 // `;
 
-function Project  () {
-    return(
+function Project() {
+    return (
         <div>
-        <ProjectCard/>
+            <ProjectCard />
         </div>
     )
-} 
+}
 
 export default Project;
+
