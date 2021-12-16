@@ -23,8 +23,8 @@ function team() {
             <InfoColumn>
               <TextWrapper>
                 {/* <TopLine lightTopLine="true">#Team</TopLine> */}
-                <Heading lightText="true">Let's meet the wonderful Webwiz Team </Heading>
-                <Subtitle lightTextDesc="true">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consecteturLorem ipsum dolor sit amet consec </Subtitle>
+                <Heading lightText="true">Meet the Team.  </Heading>
+                <Subtitle lightTextDesc="true">The Dreamers who make it possible. <br/>Be part of an amazing team that is available for you everytime you raise a hand.</Subtitle>
                 <Link href='/team'>
                   <Button > Let's meet all</Button>
                 </Link>
