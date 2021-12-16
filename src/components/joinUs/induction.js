@@ -21,9 +21,14 @@ const useStyles = makeStyles({
     },
 
     heading:{
-        fontSize: "60px",
+        fontSize: "40px",
         fontFamily: "poppins",
         color: "white",
+        paddingBottom: '1rem',
+
+        "@media (max-width: 650px)": {
+            fontSize: "30px",
+        }
     },
 
     inductioncards:{
@@ -129,7 +134,7 @@ function Induction () {
     return(
         <>
          <div className={classes.induction}>
-         <div className={classes.heading}>Join Us</div>
+         <div className={classes.heading}>Dream | Develop | Devote</div>
             <div className={classes.inductioncards}>
                 {inductionData.map(function ncards(val){
                     return(
