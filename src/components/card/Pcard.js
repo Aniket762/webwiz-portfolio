@@ -18,10 +18,10 @@ const Link = styled.a`
 const Button = styled.button`
   border: 0;
   outline: 0;
-  padding: 8px 1em;
+  padding: 9% 20%;
   color: #fff;
   font-weight: 600;
-  border-radius: 20px;
+  border-radius: 50%;
   background-color: #490055;
   border: 2px solid #490055;
   transition: all 240ms ease-in-out;
@@ -33,26 +33,28 @@ const Button = styled.button`
   }
 
   &:not(:last-of-type) {
-    margin-right: 7px;
+    margin-right: 7%;
   }
 `;
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: '75%',
     margin: "auto",
     overflow: "hidden",
-    marginBottom: "2rem",
+    marginBottom: "5%",
+    alignSelf: "center",
 
     '&:hover': {
       boxShadow: '0px 2px 20px 1px rgba(105, 1, 114, 0.7)'
    },
+
   },
   media: {
     height: 240,
   },
 
-  btnaction:{
+  btnaction: {
     justifyContent: "center"
   },
 
@@ -84,12 +86,12 @@ export default function Pcard(props) {
       <CardActions className={classes.btnaction}>
         <Link href={props.links}>
           <Button>
-            Visit 
+            Visit
           </Button>
         </Link>
       </CardActions>
     </Card>
 
-    
+
   );
 }
