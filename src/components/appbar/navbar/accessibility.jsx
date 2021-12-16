@@ -35,7 +35,7 @@ const LoginButton = styled.button`
 export function Accessibility(props) {
   return (
     <AccessibilityContainer>
-      <a href ="https://webwiz.typeform.com/to/Jzp7Pxs4" target="_blank"><LoginButton>Join Us</LoginButton></a>
+      <a href ="https://webwiz.typeform.com/to/Jzp7Pxs4" target="_blank" rel="noreferrer noopener"><LoginButton>Join Us</LoginButton></a>
     </AccessibilityContainer>
   );
 }
