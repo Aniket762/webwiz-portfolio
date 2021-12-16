@@ -139,7 +139,7 @@ const useStyles = makeStyles({
         marginBottom: 50,
         flexWrap: 'wrap',
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
             padding: 0,
@@ -159,7 +159,7 @@ const useStyles = makeStyles({
             cursor: 'pointer'
         },
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
         }
@@ -176,7 +176,7 @@ const useStyles = makeStyles({
             cursor: 'pointer'
         },
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
         }
@@ -193,7 +193,7 @@ const useStyles = makeStyles({
             cursor: 'pointer'
         },
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
         }
