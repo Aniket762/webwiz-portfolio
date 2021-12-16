@@ -24,6 +24,14 @@ const ProjectCard = () => {
   const classes = useStyles();
 
   const cardDetails = [{
+    id: 6,
+    title: "Hackodisha",
+    details: "A 36 hours community focused online Hackathon organized by Webwiz NIT Rourkela on the occassion of diamond jubliee.",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1639648872/webwiz-portfolio/others/P01_Hackodisha_announcement_s01bom.png",
+    links: "https://hackodisha.xyz/"
+    },
+    
+    {
     id: 1,
     title: "Daffodil",
     details: "Course material for 1st year engineering students in IIT/NITs.",

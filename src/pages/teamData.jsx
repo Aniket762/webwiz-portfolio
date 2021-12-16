@@ -3,7 +3,7 @@ const teamData = {
   executive: [
     {
       name: "Manjeet Dhayal",
-      image: "https://res.cloudinary.com/webwiznitr/image/upload/v1628939616/webwiz-portfolio/team-images/team-webwiz/manjeet.jpg",
+      image: "https://res.cloudinary.com/webwiznitr/image/upload/v1639649908/webwiz-portfolio/team-images/team-webwiz/IMG_20201113_17162200_yidbgn.jpg",
       tagline: "President",
       github: "https://github.com/manjeetdhayal",
       linkedin: "https://www.linkedin.com/in/manjeet-dhayal-194953209/",
