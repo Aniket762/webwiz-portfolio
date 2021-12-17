@@ -4,7 +4,7 @@ import Pcard from './Pcard';
 
 const useStyles = makeStyles({
   root: {
-    padding: "3rem",
+    padding: "0.5rem",
   },
 
   pcard: {
@@ -71,9 +71,9 @@ const ProjectCard = () => {
   return (
     <>
       <div className={classes.heading}>Projects</div>
-      <Grid container spacing={0} className={classes.root}>
+      <Grid container className={classes.root}>
         {cardDetails.map(item => (
-          <Grid item xs={12} sm={4}>
+          <Grid item spacing={3} xs={12} sm={6} md={6} lg={4}>
             <Pcard
               key={item.id} image={item.image} details={item.details} title={item.title} links={item.links} className={classes.pcard} />
           </Grid>
