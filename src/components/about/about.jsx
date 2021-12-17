@@ -43,19 +43,19 @@ function about() {
       <div id="cards">
         <LiteCard
           title="Made for students"
-          description="Students from all undergraduate programs with interest in growing as a web developer are warmly welcome.  We believe that web development is a -domain that can make a newbie crazy about software development. It doesn’t matter if you are a frontend, full-stack, or backend developer or never even touched a code editor in your&nbsp;life"
+          description="If you are crazy about development we are crazy about you. Any other barrier that you think exists, DOESN'T."
 
           color="#000"
         />
         <LiteCard
-          title="Design Focus"
-          description="Committed to providing resources and content to the web development community. Our entire focus is on web development and&nbsp;design."
+          title="Development"
+          description="We focus on Design as much as developing. At last the eye sees it first."
 
           color="#000"
         />
         <LiteCard
           title="Practical Guide"
-          description="Of course, our content will focus on and use examples from web-based languages such as Javascript and Python. We are big fans of the React and Node.js framework. Still, we believe you shouldn’t limit yourself in this continually evolving sector of technology. We hope you find something&nbsp;useful!"
+          description="We guide you everytime you need us. Literally anywhere you want to go we have a guide for that."
 
           color="#000"
         />

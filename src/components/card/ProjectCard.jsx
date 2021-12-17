@@ -4,7 +4,7 @@ import Pcard from './Pcard';
 
 const useStyles = makeStyles({
   root: {
-    padding: "3rem",
+    padding: "0.5rem",
   },
 
   pcard: {
@@ -24,6 +24,14 @@ const ProjectCard = () => {
   const classes = useStyles();
 
   const cardDetails = [{
+    id: 6,
+    title: "Hackodisha",
+    details: "A 36 hours community focused online Hackathon organized by Webwiz NIT Rourkela on the occassion of diamond jubliee.",
+    image: "https://res.cloudinary.com/webwiznitr/image/upload/v1639648872/webwiz-portfolio/others/P01_Hackodisha_announcement_s01bom.png",
+    links: "https://hackodisha.xyz/"
+    },
+    
+    {
     id: 1,
     title: "Daffodil",
     details: "Course material for 1st year engineering students in IIT/NITs.",
@@ -63,9 +71,9 @@ const ProjectCard = () => {
   return (
     <>
       <div className={classes.heading}>Projects</div>
-      <Grid container spacing={0} className={classes.root}>
+      <Grid container className={classes.root}>
         {cardDetails.map(item => (
-          <Grid item xs={12} sm={4}>
+          <Grid item spacing={3} xs={12} sm={6} md={6} lg={4}>
             <Pcard
               key={item.id} image={item.image} details={item.details} title={item.title} links={item.links} className={classes.pcard} />
           </Grid>

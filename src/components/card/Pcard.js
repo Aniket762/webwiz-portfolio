@@ -18,10 +18,10 @@ const Link = styled.a`
 const Button = styled.button`
   border: 0;
   outline: 0;
-  padding: 9% 20%;
+  padding: 8px 1em;
   color: #fff;
   font-weight: 600;
-  border-radius: 50%;
+  border-radius: 20px;
   background-color: #490055;
   border: 2px solid #490055;
   transition: all 240ms ease-in-out;

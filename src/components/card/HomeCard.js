@@ -139,7 +139,7 @@ const useStyles = makeStyles({
         marginBottom: 50,
         flexWrap: 'wrap',
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
             padding: 0,
@@ -159,7 +159,7 @@ const useStyles = makeStyles({
             cursor: 'pointer'
         },
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
         }
@@ -176,7 +176,7 @@ const useStyles = makeStyles({
             cursor: 'pointer'
         },
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
         }
@@ -193,7 +193,7 @@ const useStyles = makeStyles({
             cursor: 'pointer'
         },
 
-        "@media (max-width: 1100px)": {
+        "@media (max-width: 1300px)": {
             marginTop: 25,
             marginBottom: 25,
         }
@@ -211,8 +211,8 @@ const HomeCard = () => {
                 <Typography className={classes.headingmain} >
                     <span style={{
                         color: "#f6f6f6"
-                    }}>Webwiz</span> brings you some<br />
-                    Amazing Events
+                    }}>Webwiz</span> takes you on amazing voyages <br />
+                    every turn of the way.
                 </Typography>
 
                 <div className={classes.headingbox}>
@@ -260,7 +260,7 @@ const HomeCard = () => {
                         <img src={FLAG} alt="" />
                         <h4 style={{ margin: 0 }}>Flagship Event</h4>
                         <p>
-                        Hackodisha was one of the recent flagship event of Webwiz.
+                            Hackodisha is what put us on the map and define the way Webwiz moves forward.
                         </p>
                     </div>
                 {/* </Link> */}
@@ -269,21 +269,23 @@ const HomeCard = () => {
                     <img src={SESSION} alt="" />
                     <h4 style={{ margin: 0 }}>Sessions</h4>
                     <p>
-                        We have various sessions on different domains.
+                        Learn and teach and the baton is passed
                     </p>
                 </div>
                 <div className={classes.innerCardRight}>
                     <img src={WORKSHOP} alt="" />
                     <h4 style={{ margin: 0 }}>Workshop</h4>
                     <p>
-                        We conduct hands-on sessions on various topics.
+                    We believe the best way to learn is through experiencing and we make sure we give you lots of it.
                     </p>
                 </div>
             </CardContent>
             <Link href="/events">
                 <Button>
+                Check what's more
+                </Button>
                 {/* Let’s check out  */}
-                More events</Button>
+                {/* More events */}
             </Link>
 
         </Card>
