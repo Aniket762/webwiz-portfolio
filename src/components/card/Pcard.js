@@ -84,7 +84,7 @@ export default function Pcard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.btnaction}>
-        <Link href={props.links}>
+        <Link href={props.links} target="_blank">
           <Button>
             Visit
           </Button>
